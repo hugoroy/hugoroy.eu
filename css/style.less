@@ -4,14 +4,69 @@ body {
     font-family: "Roboto", Roboto;
 }
 
+#top {
+    min-height: 55px;
+    padding: 2px 15px;
+    margin-bottom: 5em;
+}
+
 #ma-tete {
     border-width: 1px;
     border-style: solid;
     border-radius: 140px;
+    float: left;
+    margin-right: 2em;
 }
+
 
 section {
     margin-top: 2em;
     margin-bottom: 16em;
     padding: 2em;
+}
+
+@media (min-width: 700px) {
+    aside {
+        width: 180px;
+        left: 0;
+    }
+    #menu {
+        position: fixed;
+    }
+    article {
+        margin: 0 0 0 220px;
+    }
+    #search {
+        position: fixed;
+        bottom: 50px;
+    }
+}
+
+@media (min-width: 1300px) {
+    aside {
+        width: 220px;
+    }
+    article {
+        margin-left: 320px;
+    }
+}
+
+#menu .nav .nav {
+    display: none;
+}
+
+#menu .nav > .active > .nav {
+    display: block;
+}
+
+article p {
+    margin: 0px 0px 9px;
+    max-width: 600px;
+    font-size: 14px;
+    line-height: 125%;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
 }
