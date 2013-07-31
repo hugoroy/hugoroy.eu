@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hugo Roy</title>
+	<atom:link href="http://hugoroy.eu/feed.rss" rel="self" type="application/rss+xml" />
+	<link>http://hugoroy.eu/</link>
+	<description>Hugo Roy's weblog</description>
+        <lastBuildDate>Thu, 20 Jun 2013 12:18:27 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>daily</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+		<!--item>
+			<title></title>
+			<link></link>
+			<pubDate>Wed Nov 14 14:00:00 +0200 2013</pubDate>
+			<dc:creator></dc:creator>
+
+                </item>     -->
+                <item>
+                    <title>Vim Tip: Make arrows behave in VIM like in a GUI text editor</title>
+                    <link>http://blogs.fsfe.org/hugo/2013/06/vim-tip-make-arrows-behave-in-vim-like-in-a-gui-text-editor/</link>
+                    <comments>http://blogs.fsfe.org/hugo/2013/06/vim-tip-make-arrows-behave-in-vim-like-in-a-gui-text-editor/#comments</comments>
+                    <pubDate>Thu, 20 Jun 2013 12:13:41 +0000</pubDate>
+                    <dc:creator>Hugo Roy</dc:creator>
+                                    <category><![CDATA[English]]></category>
+                    <category><![CDATA[vim]]></category>
+
+                    <guid isPermaLink="false">http://blogs.fsfe.org/hugo/?p=563</guid>
+                    <description><![CDATA[This is wholly heretic to VIM purists, but I find it very useful for people who do use ↑ and ↓ keys and do not intend to use them as a replacement for k and j. Just add in your &#8230; <a href="http://blogs.fsfe.org/hugo/2013/06/vim-tip-make-arrows-behave-in-vim-like-in-a-gui-text-editor/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+                            <content:encoded><![CDATA[<p>This is wholly heretic to VIM purists, but I find it very useful for people who do use ↑ and ↓ keys and do not intend to use them as a replacement for k and j. Just add in your <a href="https://github.com/hugoroy/.vim/blob/master/vimrc">~/.vimrc</a>:</p>
+        <p><code>" make arrows behave like gui text editor<br/>
+        nnoremap &lt;up> gk<br/>
+        nnoremap &lt;down> gj<br/>
+        inoremap &lt;up> &lt;C-O>gk<br/>
+        inoremap &lt;down> &lt;C-O>gj</code><br/>
+        <a href="https://gist.github.com/hugoroy/5822226">https://gist.github.com/hugoroy/5822226</a></p>
+        <p><a href="http://blogs.fsfe.org/hugo/?flattrss_redirect&amp;id=563&amp;md5=493fc6f85444dcf165b4d38d8c4afd22" title="Flattr" target="_blank"><img src="http://blogs.fsfe.org/hugo/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]></content:encoded>
+                            <wfw:commentRss>http://blogs.fsfe.org/hugo/2013/06/vim-tip-make-arrows-behave-in-vim-like-in-a-gui-text-editor/feed/</wfw:commentRss>
+                    <slash:comments>0</slash:comments>
+		</item>
+		<item>
+			<title>ToS:DR in Action: “What is yours stays yours”: Oh, really?</title>
+                        <link>http://todsr.org/blog/tosdr-in-action-owned.html</link>
+			<pubDate>Mon Jun 17 11:20:00 +0200 2013</pubDate>
+                        <dc:creator>Hugo</dc:creator>
+
+                </item> 
+                <item>
+                    <title>ToS;DR in Action: “I have read and agree to the terms”</title>
+                    <link>http://tosdr.org/blog/tosdr-in-action-i-have-read-and-agree.html</link>
+                    <pubDate>Mon Jun 10 16:53:00 +0200 2013</pubDate>
+                    <dc:creator>Hugo</dc:creator>
+                </item>
+</channel>
+</rss>
+
