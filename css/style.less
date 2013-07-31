@@ -11,7 +11,7 @@ pre, code {
 #top {
     min-height: 55px;
     padding: 2px 15px;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 #top .link-home {
@@ -37,32 +37,38 @@ pre, code {
     border-radius: 140px;
 }
 
-
-section {
-    margin-top: 2em;
-    margin-bottom: 10em;
-    padding: 4em 2em;
+#lang-select {
+    font-size: 0.8em;
 }
 
-section:first-child { margin-top: 0em; padding-top: 1em; }
+#bottom {
+    margin: 4em 0 0 0;
+    clear: both;
+}
+
+#search {
+    z-index: 30;
+}
 
 @media (min-width: 700px) {
     aside {
         width: 180px;
         left: 0;
+        float: left;
     }
     #menu {
         position: fixed;
+        float: none;
     }
     article {
         margin: 0 0 0 220px;
     }
-    footer {
-        margin: 3em 0 0 220px;
+    #bottom {
+        margin-left: 220px;
     }
     #search {
         position: fixed;
-        bottom: 50px;
+        bottom: 20px;
     }
 }
 
@@ -73,7 +79,10 @@ section:first-child { margin-top: 0em; padding-top: 1em; }
     article, footer {
         margin-left: 320px;
     }
+}
 
+#menu {
+    margin: 2em 0;
 }
 
 #menu .nav a {
@@ -102,15 +111,27 @@ section:first-child { margin-top: 0em; padding-top: 1em; }
 }
 
 article p {
-    margin: 0px 0px 9px;
-    max-width: 600px;
-    font-size: 14px;
-    line-height: 125%;
+    margin: 0px 0px 1.1em;
+    max-width: 550px;
+    font-size: 14.2px;
+    line-height: 140%;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     -o-hyphens: auto;
     hyphens: auto;
+}
+
+section {
+    margin-top: 2em;
+    margin-bottom: 10em;
+    padding: 4em 2em;
+}
+
+section:first-child { margin-top: 0em; padding-top: 1em; }
+
+footer {
+    font-size: 0.9em;
 }
 
 /*Blog index.html*/
@@ -121,6 +142,8 @@ article p {
 
 ul#blog-index {
 list-style: none;
+margin-left: 0;
+padding-left: 0;
 }
 
 ul#blog-index time {
@@ -133,25 +156,23 @@ width:120px;
 }
 
 @media (max-width: 960px) {
-
  ul#blog-index time {
      display: block;
      text-align:left;
      margin-top: 0.6em;
  }
-
 }
 
 ul#blog-index .authors .avatar {
-	height:1.1em;
-	margin-left:.5em;
-	box-shadow:0 0 0 transparent;
+    height:1.1em;
+    margin-left:.5em;
+    box-shadow:0 0 0 transparent;
 }
 
 ul#blog-index .link-out {
-	color: #666;
-	font-size: 80%;
-	margin:0 .4em;
+    color: #666;
+    font-size: 80%;
+    margin:0 .4em;
 }
 
 .zzz,.zzz a{float:right;font-size:.001px;color:transparent;display:inline-block;width:0px;text-decoration:none;}
