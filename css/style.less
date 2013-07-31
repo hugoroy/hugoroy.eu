@@ -1,29 +1,50 @@
 @import "fonts.less";
 
 body {
-    font-family: "Roboto", Roboto;
+    font-family: "Roboto", Roboto, "Open Sans","OpenSans", "DejaVu Sans", sans-serif;
+}
+
+pre, code {
+    font-family:"Inconsolata",Monaco,Menlo,Consolas,"Courier New",monospace;
 }
 
 #top {
     min-height: 55px;
     padding: 2px 15px;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
 
-#ma-tete {
+#top .link-home {
+    float: left;
+    margin-right: 2em;
+}
+
+#top .link-home span {
+    position: absolute;
+    display: block;
+    width: 48px;
+    height: 32px;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 32px;
+    visibility: hidden;
+    color: transparent;
+}
+
+#top .link-home span, #ma-tete {
     border-width: 1px;
     border-style: solid;
     border-radius: 140px;
-    float: left;
-    margin-right: 2em;
 }
 
 
 section {
     margin-top: 2em;
-    margin-bottom: 16em;
-    padding: 2em;
+    margin-bottom: 10em;
+    padding: 4em 2em;
 }
+
+section:first-child { margin-top: 0em; padding-top: 1em; }
 
 @media (min-width: 700px) {
     aside {
@@ -36,6 +57,9 @@ section {
     article {
         margin: 0 0 0 220px;
     }
+    footer {
+        margin: 3em 0 0 220px;
+    }
     #search {
         position: fixed;
         bottom: 50px;
@@ -46,13 +70,31 @@ section {
     aside {
         width: 220px;
     }
-    article {
+    article, footer {
         margin-left: 320px;
     }
+
+}
+
+#menu .nav a {
+    border-left: 3px solid rgba(255,255,255,0);
+}
+
+#menu .nav > .active > a {
+    border-left: 3px solid rgb(217, 38, 28);
 }
 
 #menu .nav .nav {
     display: none;
+}
+
+#menu .nav .nav li {
+    margin-left: 2em;
+}
+
+#menu .nav .nav li a {
+    padding: 5px 15px;
+    font-size: 0.9em;
 }
 
 #menu .nav > .active > .nav {
@@ -70,3 +112,46 @@ article p {
     -o-hyphens: auto;
     hyphens: auto;
 }
+
+/*Blog index.html*/
+
+.blog.archive {
+
+}
+
+ul#blog-index {
+list-style: none;
+}
+
+ul#blog-index time {
+margin-left:-2em;
+margin-right: 2em;
+text-align:right;
+color: #666;
+display:inline-block;
+width:120px;
+}
+
+@media (max-width: 960px) {
+
+ ul#blog-index time {
+     display: block;
+     text-align:left;
+     margin-top: 0.6em;
+ }
+
+}
+
+ul#blog-index .authors .avatar {
+	height:1.1em;
+	margin-left:.5em;
+	box-shadow:0 0 0 transparent;
+}
+
+ul#blog-index .link-out {
+	color: #666;
+	font-size: 80%;
+	margin:0 .4em;
+}
+
+.zzz,.zzz a{float:right;font-size:.001px;color:transparent;display:inline-block;width:0px;text-decoration:none;}

@@ -4,9 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="css/style.css" rel="stylesheet">
         <link rel="shortcut icon" href="favicon.png">
+        <script src="js/jquery.js"></script>
         <script src="js/scrollspy.js"></script>
         <!--metadata-->
         <title>Hugo Roy</title>
@@ -15,9 +16,10 @@
         <meta name="description" content="Page personnelle de Hugo Roy.">
         <meta name="keywords" content="logiciel libre, droit, hugoroyd, fsfe, hugo roy devred">
     </head>
-    <body class="lang-fr home" id="index-html" data-spy="scroll" data-target="#menu" data-offset="0">
+    <body class="lang-fr home" id="index-html" data-spy="scroll" data-target="#menu" data-offset="230">
         <header id="top">
-            <a rel="home" href="index.html">
+            <a rel="home" class="link-home" href="index.html">
+                <span title="Retour à la première page">↶</span>
                 <img id="ma-tete" alt="Hugo Roy" title="Hugo Roy" src="favatar.png" />
             </a>
             <div id="lang-select">
@@ -38,50 +40,114 @@
         </aside>
         <article role="document">
             <section id="hugoroy">
-                <p>Je dirige le projet <a href="//tosdr.org"><img alt="" src="//tosdr.org/img/tosdr-icon-19.png"> Terms of Service; Didn't Read</a> et je siège au conseil d'administration de la <a href="//www.fsfe.org"><img alt="" src="//fsfe.org/graphics/stars-smaller.png" height="19"> Fondation Européenne du Logiciel Libre (FSFE)</a>.</p>
+            <p>Je dirige le projet <a href="//tosdr.org"><img alt="" src="//tosdr.org/img/tosdr-icon-19.png"> Terms of Service; Didn't Read</a> et je siège au conseil d'administration de la <a href="//www.fsfe.org"><img alt="" src="//fsfe.org/graphics/stars-smaller.png" height="19"> Fondation Européenne du Logiciel Libre (FSFE)</a>.</p>
+            <p>Je discute  <a href="http://twitter.com/hugoroyd">sur Twitter</a> ou sur <a href="http://identi.ca/hugoroy">identi.ca</a> (vous pouvez vous attendre à ce que ça cause de libertés, de contrôle de nos données et de notre informatique, de droit, de vie privée, de zappa, tout ça). Voici&nbsp;: <a href="http://openlibrary.org/people/hugoroy/lists/OL29190L/Own_Library">mes livres</a>, <a href="http://www.discogs.com/collection?user=hugoroy&amp;layout=big">mes disques</a>, <a href="http://www.watchth.is/users/Hugo/">des films</a>, <a href="http://www.flickr.com/photos/hugoroyd/">des photos</a>, <a href="https://pinboard.in/u:hugoroy">mes marque-pages</a>. Je contribue à <a href="https://github.com/hugoroy">quelques projets</a>, un peu de code. Je partage <a href="http://sharedstuff.org/#hugo@5apps.com">des trucs</a>.</p>
+            <p>J'aime ces citations&nbsp;:</p>
+            <blockquote><p>Dans la pratique — les révolutionnaires se trompent toujours, parce qu’ils croient toujours la vérité trop simple, ont trop confiance en eux-mêmes et s’imaginent qu’ils ont trouvé et déterminé le terme du progrès humain&nbsp;; tandis que le propre du progrès, c’est de n’avoir pas de terme, de n’atteindre ceux qu’on lui propose qu’en les transformant, de ne résoudre les problèmes qu’en en changeant les données.
+            </p>
+            <p class="origin">— Jean-Marie Guyau, <a href="https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99une_morale_sans_obligation_ni_sanction"><cite>Esquisse d’une morale sans obligation ni sanction</cite></a>, «&nbsp;Le risque métaphysique dans la spéculation&nbsp;», 1885</p>
+            </blockquote>
+            <blockquote><p>Without deviation from the norm, progress <a href="//www.youtube.com/embed/mOHCV-QO5HA">is not possible</a>.</p>
+            <p class="origin">— Frank Zappa (1940-1993)</p>
+            </blockquote>
             </section>
             <section id="blog">
-                <ul>
-                    <li><a href="a-small-lesson-about-patent-fud.md">a-small-lesson-about-patent-fud.md</a></li>
-                    <li><a href="google-talk-discontinued-will-google-keep-its-promise-and-give-xmpp-users-a-way-out.md">google-talk-discontinued-will-google-keep-its-promise-and-give-xmpp-users-a-way-out.md</a></li>
-                    <li><a href="tosdr-in-action-i-have-read-and-agree.md">tosdr-in-action-i-have-read-and-agree.md</a></li>
-                    <li><a href="tosdr-in-action-owned.md">tosdr-in-action-owned.md</a></li>
-                    <li><a href="vim-tip-make-arrows-behave-in-vim-like-in-a-gui-text-editor.md">vim-tip-make-arrows-behave-in-vim-like-in-a-gui-text-editor.md</a></li>
-                </ul>
+            <ul id="blog-index">
+                <li id="2013-06-20">
+                <time>20 Juin 2013</time>
+                <a href="//blogs.fsfe.org/hugo/2013/06/vim-tip-make-arrows-behave-in-vim-like-in-a-gui-text-editor/">Vim Tip: Make arrows behave in VIM like in a GUI text editor</a> <span class="link-out">(blogs.fsfe.org)</span>
+                </li>
+
+                <li id="2013-06-17">
+                <time datetime="Mon Jun 17 11:20:00 +0200 2013">17 Juin 2013</time>
+                <a href="//tosdr.org/blog/tosdr-in-action-owned.html">ToS:DR in Action: “What is yours stays yours”: Oh, really?</a> <span class="link-out">(tosdr.org)</span>
+                </li>
+                
+                <li id="2013-06-10">
+                <time datetime="Mon Jun 10 16:53:00 +0200 2013">10 Juin 2013</time>
+                <a href="//tosdr.org/blog/tosdr-in-action-i-have-read-and-agree.html">ToS;DR in Action: “I have read and agree to the terms”</a> <span class="link-out">(tosdr.org)</span>
+                </li>
+
+                <li id="2013-05-30">
+                <time datetime="2013-05-30T14:22:32+00:00">30 Mai 2013</time>
+                <a href="//blogs.fsfe.org/hugo/2013/05/whos-tracking-me-online-the-most-google-or-facebook/">Who’s tracking me online the most: Google or Facebook?</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+
+                <li id="2013-05-21">
+                <time>21 Mai 2013</time>
+                <a href="//blogs.fsfe.org/hugo/?p=545">Google Talk discontinued</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+
+                <li id="2013-04-16">
+                <time>16 Avr 2013</time>
+                <a href="//blogs.fsfe.org/hugo/?p=523">A (small) lesson about patent FUD.</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+                    
+                <li id="2012-11-19"><time datetime="Mon Nov 19 11:10:00 +0200 2012">19 Nov 2012</time>
+                <a href="//tosdr.org/blog/why-no-class-yet.html">Why so many services have "No Class Yet"</a> <span class="link-out">(tosdr.org)</span></li>
+
+                <li id="2012-10-10">
+                <time>10 Oct 2012</time>
+                <a href="http://blog.hugoroy.eu/2012/10/10/some-facts-about-the-us-patent-system/">Some facts about the US patent system</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
+                
+                <li id="2012-08-13"><time datetime="Mon 13 Aug 2012 15:55:56 +0000">13 Aoû 2012</time>
+                <a href="http://blog.hugoroy.eu/2012/08/13/terms-of-service-didnt-read-pre-alpha-release-we-need-your-contributions/">Terms of Service; Didn&#8217;t Read: pre-alpha release. We need your contributions</a><span class="link-out">(blog.hugoroy.eu)</span></li>
+                
+                <li id="2012-16-18"><time datetime="Mon 18 Jun 2012 17:25:30 +0000">18 Juin 2012</time>
+                <a href="http://blog.hugoroy.eu/2012/06/18/facebook-updates-the-terms-of-service-but-were-watching-them-22/">Facebook updates the Terms of Service. But we’re watching them. (2/2)</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
+                
+                <li id="2012-06-13"><time datetime="13 Jun 2012 16:17:20 +0000">13 Juin 2012</time>
+                <a href="http://blog.hugoroy.eu/2012/06/13/facebook-update-their-terms-of-service-but-were-watching-them/">Facebook updates the Terms of Service. But we&#8217;re watching them. (1)</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
+
+                <li id="2013-archives"><time>2013</time> <a href="http://blog.hugoroy.eu/2013">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span>
+                - <a href="//blogs.fsfe.org/hugo/2013/">Archives</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+
+                <li id="2012-archives"><time>2012</time> <a href="http://blog.hugoroy.eu/2012">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span>
+                - <a href="//blogs.fsfe.org/hugo/2012/">Archives</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+                
+                <li id="2011-archives"><time>2011</time> <a href="http://blog.hugoroy.eu/2011">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span>
+                - <a href="//blogs.fsfe.org/hugo/2011/">Archives</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+
+                <li id="2010-archives"><time>2010</time> <a href="http://blog.hugoroy.eu/2010">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span>
+                - <a href="//blogs.fsfe.org/hugo/2010/">Archives</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+
+                <li id="2009-archives"><time>2009</time> <a href="http://blog.hugoroy.eu/2009">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span>
+                - <a href="//blogs.fsfe.org/hugo/2009/">Archives</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+
+                <li id="2008-archives"><time>2008</time> <a href="http://blog.hugoroy.eu/2008">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
+
+            </ul>
             </section>
             <section id="contact">
-                <dl>
-                    <dt id="email">Adresse électronique&nbsp;:</dt>
-                    <dd>
-                        <a href="mailto:ach u gé o arobase hugoroy.eu"><img alt="mailto:" class="icon" src="site/img/email.png" /> hu<span class="zzz">SPAM</span>go@hu<span class="zzz">ENLEVER</span>go<span class="y">roy.eu</span></a>
-                    </dd>
-                    <dd><p>Merci de ne pas m'envoyer de pièces jointes Microsoft Word, PowerPoint, etc. <a href="pieces-jointes-standards-ouverts.html" title="Envoyez-moi des pièces jointes que je peux lire, utilisez les standards ouverts !">Pourquoi&nbsp;?</a> Utilisez des standards ouverts&nbsp;!</p></dd>
-                    <!--dd>
-                    Merci d\'éviter les <a
-                    href="/open-standards-att.fr.php">
-                    pièces-jointes verrouillées</a> avec vos courriels. 
-                    </dd-->
+            <dl>
+                <dt id="email">Adresse électronique&nbsp;:</dt>
+                <dd>
+                    <a href="mailto:ach u gé o arobase hugoroy.eu"><img alt="mailto:" class="icon" src="site/img/email.png" /> hu<span class="zzz">SPAM</span>go@hu<span class="zzz">ENLEVER</span>go<span class="y">roy.eu</span></a>
+                </dd>
+                <dd><p>Merci de ne pas m'envoyer de pièces jointes Microsoft Word, PowerPoint, etc. <a href="pieces-jointes-standards-ouverts.html" title="Envoyez-moi des pièces jointes que je peux lire, utilisez les standards ouverts !">Pourquoi&nbsp;?</a> Utilisez des standards ouverts&nbsp;!</p></dd>
+                <!--dd>
+                Merci d\'éviter les <a
+                href="/open-standards-att.fr.php">
+                pièces-jointes verrouillées</a> avec vos courriels. 
+                </dd-->
 
-                    <dt id="instant">Messagerie instantanée&nbsp;:</dt>
-                    <dd><img alt="xmpp:" class="icon" src="site/img/xmppbw.png" /> <a href="xmpp:hugo@jabber.fsfe.org">hugo@<span style="color:#d9531e">jabber</span>.<span style="color: rgb(0, 153, 0);">fsfe.org</span></a> (<a class="aide" href="http://wiki.jabberfr.org/Jabber_en_dix_minutes_avec_Gajim" title="Apprendre à utiliser jabber en dix minutes avec Gajim">aide</a>)</dd>
-                    <dd><img alt="irc:" class="icon" src="site/img/chat.png" /> hugoroyd@irc.freenode.net <a href="http://webchat.freenode.net/?channels=#fsfe">#fsfe</a>, <a href="http://webchat.freenode.net/?channels=#unhosted">#unhosted</a>,  <a href="http://webchat.freenode.net/?channels=#tosdr">#tosdr</a></dd>
+                <dt id="instant">Messagerie instantanée&nbsp;:</dt>
+                <dd><img alt="xmpp:" class="icon" src="site/img/xmppbw.png" /> <a href="xmpp:hugo@jabber.fsfe.org">hugo@<span style="color:#d9531e">jabber</span>.<span style="color: rgb(0, 153, 0);">fsfe.org</span></a> (<a class="aide" href="http://wiki.jabberfr.org/Jabber_en_dix_minutes_avec_Gajim" title="Apprendre à utiliser jabber en dix minutes avec Gajim">aide</a>)</dd>
+                <dd><img alt="irc:" class="icon" src="site/img/chat.png" /> hugoroyd@irc.freenode.net <a href="http://webchat.freenode.net/?channels=#fsfe">#fsfe</a>, <a href="http://webchat.freenode.net/?channels=#unhosted">#unhosted</a>,  <a href="http://webchat.freenode.net/?channels=#tosdr">#tosdr</a></dd>
 
-                    <dt id="crypto">Chiffrement</dt>
-                    <dd><img alt"Clé" class="icon" src="site/img/clef.png" /> openPGP <code>B3D7 B795</code> [<a href="Hugo-Roy-pub-B3D7B795-2013-2016.txt">txt</a>] Expire en 2016.</dd>
-                    <dd>
-                        <img alt="Clé" class="icon" src="site/img/clef.png" />  <a href="gnupg.html">openPGP</a> <code>B8B7 8D13</code> [<a href="/hugoroy-public.asc">asc</a>] (Merci de privilégier l'autre clé).
-                    </dd>
-                        <img alt="Clé" class="icon" src="site/img/clef.png" />  <a href="http://www.cypherpunks.ca/otr/">Off-The-Record</a> <!--code>EDE7399E 11771251 CCEEA383 54EA2EC3 C10B7437</code--><code>6E8F6A34 72C9878A B9474A05 9828A6FB 003E4650</code> (pidgin-secure-laptop)
-                    </dd>
-                </dl>
+                <dt id="crypto">Chiffrement</dt>
+                <dd><img alt"Clé" class="icon" src="site/img/clef.png" /> openPGP <code>B3D7 B795</code> [<a href="Hugo-Roy-pub-B3D7B795-2013-2016.txt">txt</a>] Expire en 2016.</dd>
+                <dd>
+                    <img alt="Clé" class="icon" src="site/img/clef.png" />  <a href="gnupg.html">openPGP</a> <code>B8B7 8D13</code> [<a href="/hugoroy-public.asc">asc</a>] (Merci de privilégier l'autre clé).
+                </dd>
+                    <img alt="Clé" class="icon" src="site/img/clef.png" />  <a href="http://www.cypherpunks.ca/otr/">Off-The-Record</a> <!--code>EDE7399E 11771251 CCEEA383 54EA2EC3 C10B7437</code--><code>6E8F6A34 72C9878A B9474A05 9828A6FB 003E4650</code> (pidgin-secure-laptop)
+                </dd>
+            </dl>
 
-                <form action="http://pgp.cs.uu.nl/mk_path.cgi" class="form-inline" method="get">
-                    <legend>Confiance GnuPG</legend>
-                    <span class="help-block">Vérifier l'existence d'une chaîne de confiance entre nos clefs openPGP&nbsp;:</span>
-                    <input name="FROM" placeholder="Identifiant de votre clef" size="20" type="text" />
-                    <input name="TO" type="hidden" value="B8B78D13" />
-                    <button class="btn" name="PATHS" type="submit">Trouver une chaîne</button>
-                </form>
+            <form action="http://pgp.cs.uu.nl/mk_path.cgi" class="form-inline" method="get">
+                <legend>Confiance GnuPG</legend>
+                <span class="help-block">Vérifier l'existence d'une chaîne de confiance entre nos clefs openPGP&nbsp;:</span>
+                <input name="FROM" placeholder="Identifiant de votre clef" size="20" type="text" />
+                <input name="TO" type="hidden" value="B8B78D13" />
+                <button class="btn" name="PATHS" type="submit">Trouver une chaîne</button>
+            </form>
             </section>
         </article>
         <aside>
@@ -89,9 +155,12 @@
                 <input name="sites" value="hugoroy.eu" type="hidden">
                 <span class="add-on"><i class="icon-search"></i></span>
                 <input name="q" type="text" placeholder="Rechercher" class="input-tiny">
-                <span class="add-on" id="duckgoforit" onclick="document.x.submit()"><a href="#">Go!</a></span>
+                <span class="add-on" id="duckgoforit" onclick="document.x.submit()"><a href="#search-with-duckduckgo-js">Go&nbsp;!</a></span>
             </form>
             <ul class="nav"><li><a href="#top">↑ Retour</a></li></ul>
         </aside>
+        <footer>
+        <p id="legal" role="contentinfo">Sauf mention contraire, le contenu de cette page est publié par <a href="/">Hugo Roy</a> sous une licence <a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/">Creative Commons autorisant le partage et la modification sous conditions</a> ou, au choix, <a href="//creativecommons.org/licenses/by-sa/3.0/fr/">la version française</a> ou <a href="http://artlibre.org">la licence Art Libre 1.3</a>.
+        </footer>
     </body>
 </html>
