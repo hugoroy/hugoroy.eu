@@ -13,7 +13,7 @@
 	<atom:link href="http://hugoroy.eu/feed.rss" rel="self" type="application/rss+xml" />
 	<link>http://hugoroy.eu/</link>
 	<description>Hugo Roy's weblog</description>
-        <lastBuildDate>Thu, 20 Jun 2013 12:18:27 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 01 Aug 2013 18:05:42 +0200</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -24,6 +24,12 @@
 			<dc:creator></dc:creator>
 
                 </item>     -->
+                <item>
+                    <title>Here’s why economists hate software patents</title>
+                    <link>https://identi.ca/api/note/8zgqhZC8TiOU4Lu6EZSdlg</link>
+                    <dc:creator>Hugo Roy</dc:creator>
+                    <pubDate>Thu, 01 Aug 2013 18:05:42 +0200</pubDate>
+                </item>
                 <item>
                     <title>Vim Tip: Make arrows behave in VIM like in a GUI text editor</title>
                     <link>http://blogs.fsfe.org/hugo/2013/06/vim-tip-make-arrows-behave-in-vim-like-in-a-gui-text-editor/</link>

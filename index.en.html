@@ -9,10 +9,10 @@
         <link rel="shortcut icon" href="favicon.png">
         <script src="js/jquery.js"></script>
         <script src="js/scrollspy.js"></script>		
-        <link rel="alternate" type="application/rss+xml" href="feed.rss" title="Hugo Roy's weblog">
         <!--metadata-->
         <title>Hugo Roy</title>
         <link type="text/html" rel="alternate" hreflang="fr" href="index.html" lang="fr" title="Hugo Roy" />
+        <link rel="alternate" type="application/rss+xml" href="feed.rss" title="Hugo Roy's weblog">
         <meta name="author" content="Hugo Roy">
         <meta name="description" content="Hugo Roy's homepage.">
         <meta name="keywords" content="free software, legal, licenses, hugoroyd, fsfe, hugo royd devred">
@@ -35,7 +35,7 @@
                 <li><a href="#contact">Contact</a>
                 <ul class="nav">
                     <li><a href="#email">Email</a></li>
-                    <li><a href="#crypto">Keys</a></li>
+                    <li><a href="#crypto">Cryptography</a></li>
                 </ul></li>
             </ul>
         </aside>
@@ -62,7 +62,7 @@
             contribute to <a href="https://github.com/hugoroy">some
                 projects</a>, and a little bit of code. I <a
                 href="http://sharedstuff.org/#hugo@5apps.com">share
-                stuff</a>.</p>
+                stuff</a>. This is <a href="//linkedin.com/in/hugoroy">my résumé</a>.</p>
             <p>I like these quotes:</p>
             <blockquote><p>Without deviation from the norm, progress <a
                     href="//www.youtube.com/embed/mOHCV-QO5HA">is not
@@ -93,12 +93,17 @@
             </blockquote>
             </section>
             <section id="blog">
+            <p class="pull-right"><a href="feed.rss" class="btn btn-warning btn-mini">Subscribe to feed [rss]</a></p>
             <p>I publish at different places, both in English and in French.
             Often: <a href="http://blog.hugoroy.eu">my personal blog</a>, <a
                 href="//blogs.fsfe.org/hugo">my blog on free software</a>, and
             <a href="//tosdr.org/blog/">the Terms of Serivce; Didn't Read
                 project blog</a>.</p>
-            <ul id="blog-index">
+            <ul class="blog-index">
+                <li id="2013-08-01">
+                <time datetime="2013-08-01T16:05:41Z">8 Aug 2013</time>
+                <a href="//identi.ca/hugoroy/note/8zgqhZC8TiOU4Lu6EZSdlg">Here’s why economists hate software patents</a> <span class="link-out">(identi.ca)</span></li>
+
                 <li id="2013-06-20">
                 <time>20 Jun 2013</time>
                 <a href="//blogs.fsfe.org/hugo/2013/06/vim-tip-make-arrows-behave-in-vim-like-in-a-gui-text-editor/">Vim Tip: Make arrows behave in VIM like in a GUI text editor</a> <span class="link-out">(blogs.fsfe.org)</span>
@@ -173,7 +178,9 @@
                 <li id="2009-11-08">
                 <time>8 Nov 2009</time>
                 <a href="http://blogs.fsfe.org/hugo/2009/11/free-software-free-society-of-democracy-and-hacking-draft-1/">Free Software, Free Society: Of Democracy and Hacking</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-
+            </ul>
+            <hr />
+            <ul class="blog-index">
                 <li id="2013-archives"><time>2013</time> <a href="http://blog.hugoroy.eu/2013">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span>
                 <a href="//blogs.fsfe.org/hugo/2013/">Archives</a> <span class="link-out">(blogs.fsfe.org)</span></li>
 
@@ -197,12 +204,16 @@
                 <dl>
                   <dt id="email">Email:</dt>
                     <dd>
-                      <a href="mailto:aitch u gee o arobas hugoroy.eu"><img
+                    <a href="mailto:aitch u gee o at hugoroy.eu"><img
                           alt="mailto:" class="icon" src="site/img/email.png"
                           /> hu<span class="zzz">SPAM</span>go@hu<span
                               class="zzz">REMOVE</span>go<span
-                              class="y">roy.eu</span></a>
-                    </dd>
+                              class="y">roy.eu</span></a> (General)</dd>
+                      <dd>
+                      <a href="mailto:aitch u gee o at fsfe.org"><img alt="mailto:" class="icon" src="site/img/email.png" /> hu<span class="zzz">SPAM</span>go@f<span class="zzz">REMOVE</span>s<span class="yy">fe.org</span></a> (Free Software)</dd>
+                      <dd>
+                      <a href="mailto:aitch u gee o at tosdr.org"><img alt="mailto:" class="icon" src="site/img/email.png" /> hu<span class="zzz">SPAM</span>go@<span class="zzz">REMOVE</span>tos<span class="yy">dr.org</span></a> (Terms of Service)</dd>
+
                     <dd><p>Please refrain from sending emails attachments with
                     Microsoft Word, PowerPoint, etc. <a
                         href="pieces-jointes-standards-ouverts.en.html"
@@ -222,8 +233,11 @@
                     <dd>
                       <img alt="irc:" class="icon" src="site/img/chat.png" /> hugoroyd@irc.freenode.net
                       <a href="http://webchat.freenode.net/?channels=#fsfe">#fsfe</a>, <a href="http://webchat.freenode.net/?channels=#unhosted">#unhosted</a>,  <a href="http://webchat.freenode.net/?channels=#tosdr">#tosdr</a>
-                    </dd>
-                  <dt id="crypto">Encryption</dt>
+                      </dd>
+                  </dl>
+
+                  <dl id="crypto">
+                  <dt>Encryption</dt>
                     <dd><img alt="Key" class="icon" src="site/img/clef.png" />
                     <a href="http://gnupg.org/index.html">openPGP</a>
                     <code>B3D7 B795</code> [<a
