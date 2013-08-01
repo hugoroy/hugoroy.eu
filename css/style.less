@@ -1,12 +1,13 @@
 @import "fonts.less";
 
-body {
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Roboto", Roboto, "Open Sans","OpenSans", "DejaVu Sans", sans-serif;
 }
 
 pre, code {
     font-family:"Inconsolata",Monaco,Menlo,Consolas,"Courier New",monospace;
 }
+
 
 #top {
     min-height: 55px;
@@ -122,13 +123,27 @@ article p {
     hyphens: auto;
 }
 
-section {
+article section {
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding:2em;
+}
+
+.home article section {
     margin-top: 2em;
     margin-bottom: 10em;
     padding: 4em 2em;
 }
 
-section:first-child { margin-top: 0em; padding-top: 1em; }
+article section:first-child { margin-top: 0em; padding-top: 1em; }
+
+
+@media (min-width: 700px) {
+    article aside {
+        float: right;
+    }
+}
+
 
 footer {
     font-size: 0.9em;
