@@ -21,7 +21,6 @@ article section:first-child{margin-top:0em;padding-top:1em;}
 @media (min-width:700px){article aside{float:right;}}footer{font-size:0.9em;}
 ul.index{list-style:none;margin-left:0;padding-left:0;}
 ul.index time{margin-left:-2em;margin-right:2em;text-align:right;color:#666;display:inline-block;width:120px;}
-@media (max-width:960px){ul.index time{display:block;text-align:left;margin-top:0.6em;}}ul.index li p{margin-left:120px;}
-ul.index .authors .avatar{height:1.1em;margin-left:.5em;box-shadow:0 0 0 transparent;}
+@media (max-width:960px){ul.index time{display:block;text-align:left;margin-top:0.6em;}}@media (min-width:960px){ul.index li p{margin-left:120px;padding-left:0.25em;}}ul.index .authors .avatar{height:1.1em;margin-left:.5em;box-shadow:0 0 0 transparent;}
 ul.index .link-out{color:#666;font-size:80%;margin:0 .4em;}
 .zzz,.zzz a{float:right;font-size:.001px;color:transparent;display:inline-block;width:0px;text-decoration:none;}
