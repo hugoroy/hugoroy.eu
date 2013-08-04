@@ -5,7 +5,7 @@ pre,code{font-family:"Inconsolata",Monaco,Menlo,Consolas,"Courier New",monospace
 #top .link-home span{position:absolute;display:block;width:48px;height:32px;text-align:center;padding-top:16px;font-size:32px;visibility:hidden;color:transparent;}
 #top .link-home span,#ma-tete{border-width:1px;border-style:solid;border-radius:140px;}
 #lang-select{font-size:0.8em;}
-#bottom{margin:4em 0 0 0;clear:both;}
+#bottom{margin:4em 0 0 0;clear:both;min-height:3.8em;}
 #search{z-index:30;}
 @media (min-width:700px){aside{width:180px;left:0;float:left;} #menu{position:fixed;float:none;} article{margin:0 0 0 220px;} #bottom{margin-left:220px;} #search{position:fixed;bottom:20px;}}@media (min-width:1300px){aside{width:220px;} article,footer{margin-left:320px;}}#menu{margin:2em 0;}
 #menu .nav a{border-left:3px solid rgba(255, 255, 255, 0);}
