@@ -4,6 +4,7 @@ pre,code{font-family:"Inconsolata",Monaco,Menlo,Consolas,"Courier New",monospace
 #top .link-home{float:left;margin-right:2em;}
 #top .link-home span{position:absolute;display:block;width:48px;height:32px;text-align:center;padding-top:16px;font-size:32px;visibility:hidden;color:transparent;}
 #top .link-home span,#ma-tete{border-width:1px;border-style:solid;border-radius:140px;}
+#hint{float:none;padding-left:1em;}
 #lang-select{font-size:0.8em;}
 #bottom{margin:4em 0 0 0;clear:both;min-height:3.8em;}
 #search{z-index:30;}
