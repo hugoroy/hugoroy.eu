@@ -1,4 +1,7 @@
 /*  --------------------------------------------------
+ *
+ *  Bunch of modifications made by Hugo: replaced &para; by # and moved the
+ *  anchor to the end of the highlighted paragraph. Different css.
 
     Emphasis
     by Michael Donohoe (@donohoe)
@@ -57,7 +60,7 @@ var Emphasis = {
         This uses some common markup for plain and simple paragraphs - those that are not empty, no classes.
         We use PrototypeJS for its css selector awesomeness, but your needs might be simpler (getElementsByTagName('p') etc.)
     */
-        this.paraSelctors      = $('article p');
+        this.paraSelctors      = $("article p");
 
     //  Class names
         this.classReady        = "emReady";
