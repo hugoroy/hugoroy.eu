@@ -12,7 +12,7 @@ pre,code{font-family:"Inconsolata",Monaco,Menlo,Consolas,"Courier New",monospace
 @media (min-width:700px){aside{width:180px;left:0;float:left;} #menu{position:fixed;float:none;text-align:right;} article{margin:0 0 0 220px;} #bottom{margin-left:220px;} #search{position:fixed;bottom:20px;}}@media (min-width:1300px){aside{width:220px;} article,footer{margin-left:320px;}}#menu{margin:2em 0;border-right:1px solid rgba(0, 0, 0, 0.1);}
 #menu .nav a{border-right:3px solid rgba(255, 255, 255, 0);}
 #menu .nav>.active>a{border-right:3px solid #d9261c;}
-#menu .nav .nav{display:none;}
+.js #menu .nav .nav{display:none;}
 #menu .nav .nav li{margin-left:2em;}
 #menu .nav .nav li a{padding:5px 15px;font-size:0.9em;}
 #menu .nav>.active>.nav{display:block;}
