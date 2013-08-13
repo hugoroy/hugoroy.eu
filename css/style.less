@@ -8,6 +8,9 @@ pre, code {
     font-family:"Inconsolata",Monaco,Menlo,Consolas,"Courier New",monospace;
 }
 
+.collapser {
+    cursor: pointer;
+}
 
 #top {
     min-height: 55px;
@@ -79,7 +82,7 @@ pre, code {
     aside {
         width: 220px;
     }
-    article, footer {
+    article, #bottom {
         margin-left: 320px;
     }
 }
@@ -114,16 +117,12 @@ pre, code {
     display: block;
 }
 
-article p {
-    margin: 0px 0px 1.1em;
-    max-width: 550px;
-    font-size: 14.2px;
-    line-height: 140%;
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    -o-hyphens: auto;
-    hyphens: auto;
+article {
+    margin-bottom: 10em;
+}
+
+article:last-child {
+    margin-bottom: 0;
 }
 
 article section {
@@ -140,14 +139,46 @@ article section {
 
 article section:first-child { margin-top: 0em; padding-top: 1em; }
 
+article p {
+    margin: 0px 0px 1.1em;
+    font-size: 14.2px;
+    line-height: 140%;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+
+article {
+    p, h1, h2, h3, h4, h5, h6 {
+        max-width: 550px;
+    }
+}
+
+#wordpress {
+    article { 
+        header, footer {
+            max-width: 550px;
+        }
+        section {
+            margin-bottom: 0;
+            padding: 0;
+        }
+        footer {
+            border-top:1px solid rgb(238, 238, 238);
+            margin-top: 3em;
+            padding-top: 2em;
+            text-align: center;
+        }
+    }
+}
 
 @media (min-width: 700px) {
     article aside {
         float: right;
     }
 }
-
-
 footer {
     font-size: 0.9em;
 }
@@ -201,6 +232,15 @@ ul.index .link-out {
     margin:0 .4em;
 }
 
+.no-js #talks ul.index li p.collapse {
+    display: block;
+    height: auto;
+}
+
+.subscribers .btn {
+    display:block;
+    margin-bottom: 0.5em;
+}
+
 .zzz,.zzz a{float:right;font-size:.001px;color:transparent;display:inline-block;width:0px;text-decoration:none;}
 
-@import "esquisse.less";
