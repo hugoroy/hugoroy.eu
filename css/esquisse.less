@@ -1,7 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700,700italic,400italic&subset=latin,latin-ext);@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic);
+/*@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700,700italic,400italic&subset=latin,latin-ext);*/@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic);
+@import "style.less";
 
 #esquisse-html article {
-    font-family: "Crimson Text", serif;
+    font-family: "Linux Libertine O", "Linux Libertine", serif;
     font-size: 17px;
     color: #222;
     margin: 0px auto;
@@ -20,13 +21,17 @@
 }
 #esquisse-html #titlepage {
     #esq, #mor, #san, #par, #jmg, #edition, #maison, #paris, #fel, #anc, #adr, #cop, #dat {
-        font-family: "Playfair Display SC", serif;
-        text-transform: lowercase;
+        font-family: "ITC Fenice", "Didot", serif;
+        text-transform: uppercase;
         display: block;
         line-height: 200%;
+        letter-spacing: 0.2em;
     }
     #esq, #san {
         font-size: 150%;
+    }
+    #san {
+        letter-spacing: -0.04em;
     }
     #mor {
         font-size: 250%;
@@ -42,9 +47,22 @@
         border-color: #333;
         letter-spacing: 0.3em;
         padding: 2em 0;
+        width: 15em;
+        position: relative;
+        left: 50%;
+        margin-left:-7.5em;
     }
     #anc, #adr {
         font-size: 80%;
+    }
+    #dat {
+        border-top: 1px solid #333;
+        width: 3em;
+        text-align: center;
+        left: 50%;
+        position: relative;
+        margin-left:-1.5em;
+        margin-top: 0.75em;
     }
     p {margin-bottom: 3em;}
 }
@@ -53,9 +71,13 @@
 }
 #esquisse-html section .titre {
     text-align: center;
-    font-family: "Playfair Display SC", serif;
-    text-transform: lowercase;
+    font-family: "ITC Fenice", "Didot", serif;
+    text-transform: uppercase;
     display: block;
     font-size: 150%;
     margin: 3em auto;
+}
+#esquisse-html .references p {
+    width: 100%;
+    max-width: none;
 }
