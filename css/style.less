@@ -1,15 +1,25 @@
-@import "fonts.less";
-
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Roboto", Roboto, "Open Sans","OpenSans", "DejaVu Sans", sans-serif;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+    font-family: "Source Sans Pro";
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    word-spacing: 0.1em;
 }
 
 pre, code {
     font-family:"Inconsolata",Monaco,Menlo,Consolas,"Courier New",monospace;
 }
 
+img {
+    max-width: 100%;
+}
+
 .collapser {
     cursor: pointer;
+    opacity: 0.5;
 }
 
 #top {
@@ -159,11 +169,14 @@ article {
 #wordpress {
     article { 
         header, footer {
-            max-width: 550px;
+            max-width: 620px;
+            padding: 0 2em;
         }
         section {
             margin-bottom: 0;
-            padding: 0;
+            padding: 0 2em;
+        }
+        header, footer, section {
         }
         footer {
             border-top:1px solid rgb(238, 238, 238);
@@ -244,3 +257,5 @@ ul.index .link-out {
 
 .zzz,.zzz a{float:right;font-size:.001px;color:transparent;display:inline-block;width:0px;text-decoration:none;}
 
+@import "fonts.less";
+@import "bootstrap-glyphicons.less";
