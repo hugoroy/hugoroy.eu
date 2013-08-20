@@ -11,6 +11,7 @@
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/scrollspy.js"></script>		
         <script type="text/javascript" src="js/collapse.js"></script>		
+        <script type="text/javascript" src="js/alert.js"></script>		
         <!--metadata-->
         <title>Hugo Roy</title>
         <link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" />
@@ -31,6 +32,9 @@
                 <a href="index.html">Français</a>
             </div>
         </header>
+        <aside id="portrait">
+            <img src="images/avatar/big-portrait.jpg" alt="Portrait" /> 
+        </aside>
         <aside id="menu">
             <ul class="nav" role="menu">
                 <li><a href="#hugoroy" rel="me">Hugo Roy</a></li>
@@ -41,6 +45,7 @@
                     <li><a href="#email">Email</a></li>
                     <li><a href="#crypto">Cryptography</a></li>
                 </ul></li>
+                <li><a href="#pinboard">Pinboard</a></li>
             </ul>
         </aside>
         <article role="main">
@@ -53,9 +58,7 @@
                 Software Foundation Europe (FSFE)</a>.</p>
             <p>I say things  <a href="https://twitter.com/hugoroyd">on
                 Twitter</a> or on <a
-                href="https://identi.ca/hugoroy">identi.ca</a> (you can expect
-            me to post about freedom, control of our own data and of our own
-            computing, privacy, law, frank zappa, and all that). This is <a
+                href="https://identi.ca/hugoroy">identi.ca</a>. This is <a
                 href="//linkedin.com/in/hugoroy">my résumé</a>. Elsewhere: <a
                 href="http://openlibrary.org/people/hugoroy/lists/OL29190L/Own_Library">my
                 books</a>, <a
@@ -225,10 +228,10 @@
             <section id="contact">
                 <div class="alert alert-block fade in">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                    <h3>Off email!</h3>
+                    <h4>Off email!</h4>
                     <p>I'm currently studying for the bar exam. So I'm not watching what comes into my INBOX. Do not contact me unless it's about something that really needs my personal attention, or come back in December 2013.</p>
                     <p>
-                    <a class="btn btn-defaultr" href="http://fsfe.org/contact/contact.en.html">Contact the FSFE team</a> <a class="btn btn-default" href="//tosdr.org/about.html#contact">Contact the ToS;DR team</a>
+                    <a class="btn btn-default" href="http://fsfe.org/contact/contact.en.html">Contact the FSFE team</a> <a class="btn btn-default" href="//tosdr.org/about.html#contact">Contact the ToS;DR team</a>
                     </p>
                 </div>
                 <dl>
@@ -254,6 +257,7 @@
                       Please avoid <a href="/open-standards-att.php">proprietary attachments</a> with your emails.
                     </dd-->
                     <dt>Calls:</dt>
+                    <!--dd><img alt="phone:" class="icon" src="site/img/phone.png" /> webRTC: <a href="https://apprtc.appspot.com/?r=B3D7B795">apprtc</a></dd-->
                     <dd><p><img alt="phone:" class="icon" src="site/img/phone.png" />Skype: <a href="http://www.h-online.com/security/news/item/Skype-with-care-Microsoft-is-reading-everything-you-write-1862870.html">Are you kidding me?</a></p></dd>
                   <dt>Instant Messaging:</dt>
                     <dd>
@@ -266,14 +270,15 @@
                       <a href="http://webchat.freenode.net/?channels=#fsfe">#fsfe</a>, <a href="http://webchat.freenode.net/?channels=#unhosted">#unhosted</a>,  <a href="http://webchat.freenode.net/?channels=#tosdr">#tosdr</a>
                         </dd>
                 </dl>
+                <p id="bitcoin"><a href="http://bitcoin.org/en">Bitcoin</a> address <code>17cC8DpcgbCCrs5BiXHgcCK4542qujH1VT</code> <a href="bitcoin.png"><span class="glyphicon glyphicon-qrcode">png</span></a></p>
                 <hr />
                 <dl id="crypto">
                   <dt>Encryption keys</dt>
                     <dd><img alt="Key" class="icon" src="site/img/clef.png" />
                     <a href="http://gnupg.org/index.html">openPGP</a>
                     <code>B3D7 B795</code> [<a
+                    href="Hugo-Roy-pub-B3D7B795-2013-2016.png"><span class="glyphicon glyphicon-qrcode">png</span></a>, <a
                         href="Hugo-Roy-pub-B3D7B795-2013-2016.txt">txt</a>, <a
-                        href="Hugo-Roy-pub-B3D7B795-2013-2016.png">png</a>, <a
                         href="Hugo-Roy-pub-B3D7B795-2013-2016.pgp"
                         download>pgp</a>] Expires in 2016.</dd>
                     <dd>
@@ -293,6 +298,11 @@
                         <button class="btn" name="PATHS" type="submit">Find Path</button>
                     </fieldset>
                 </form>
+            </section>
+            <section id="pinboard">
+                <p class="pull-right subscribers"><a href="//feeds.pinboard.in/rss/u:hugoroy/" class="btn btn-warning btn-mini">Subscribe to feed [rss]</a></p>
+                <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=hugoroy&amp;count=30"></script>
+                <p><span class="glyphicon glyhpicon-bookmark"></span> More bookmarks</p>
             </section>
         </article>
         <aside>

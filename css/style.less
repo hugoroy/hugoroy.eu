@@ -51,8 +51,15 @@ img {
     border-radius: 140px;
 }
 
+#ma-tete {
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 0 0.5em rgba(0,0,0,0.3);
+}
+
 #lang-select {
     font-size: 0.8em;
+    padding: 0.5em;
 }
 
 #bottom {
@@ -70,11 +77,6 @@ img {
         width: 180px;
         left: 0;
         float: left;
-    }
-    #menu {
-        position: fixed;
-        float: none;
-        text-align: right;
     }
     article {
         margin: 0 0 0 220px;
@@ -102,12 +104,19 @@ img {
     border-right: 1px solid rgba(0,0,0,0.1);
 }
 
-#menu .nav a {
-    border-right: 3px solid rgba(255,255,255,0);
+#menu .nav li {
+    display: inline-block;
+    width: 9em;
+    text-align: center;
 }
 
-#menu .nav > .active > a {
-    border-right: 3px solid rgb(217, 38, 28);
+.home #menu .nav li {
+    width: 24%;
+    min-width: 8em;
+}
+
+#menu .nav a {
+    border-right: 3px solid rgba(255,255,255,0);
 }
 
 .js #menu .nav .nav {
@@ -115,7 +124,7 @@ img {
 }
 
 #menu .nav .nav li {
-    margin-left: 2em;
+    padding-left: 2em;
 }
 
 #menu .nav .nav li a {
@@ -123,8 +132,24 @@ img {
     font-size: 0.9em;
 }
 
-#menu .nav > .active > .nav {
-    display: block;
+@media (min-width: 700px) {
+    #menu {
+        position: fixed;
+        top: 160px;
+        float: none;
+        clear: both;
+    }
+    #menu .nav li, .home #menu .nav li {
+        text-align: right;
+        display: block;
+        width:100%;
+    }
+    #menu .nav > .active > a {
+        border-right: 3px solid rgb(217, 38, 28);
+    }
+    #menu .nav > .active > .nav {
+        display: block;
+    }
 }
 
 article {
@@ -139,12 +164,6 @@ article section {
     margin-top: 2em;
     margin-bottom: 4em;
     padding:2em;
-}
-
-.home article section {
-    margin-top: 2em;
-    margin-bottom: 10em;
-    padding: 4em 2em;
 }
 
 article section:first-child { margin-top: 0em; padding-top: 1em; }
@@ -162,14 +181,14 @@ article p {
 
 article {
     p, h1, h2, h3, h4, h5, h6 {
-        max-width: 550px;
+        max-width: 39em;
     }
 }
 
 #wordpress {
     article { 
         header, footer {
-            max-width: 620px;
+            max-width: 44em;
             padding: 0 2em;
         }
         section {
@@ -180,10 +199,13 @@ article {
         }
         footer {
             border-top:1px solid rgb(238, 238, 238);
-            margin-top: 3em;
+            margin: 3em 2em;
             padding-top: 2em;
             text-align: center;
         }
+    }
+    .page-title {
+        margin-left: 220px;
     }
 }
 
@@ -195,6 +217,36 @@ article {
 footer {
     font-size: 0.9em;
 }
+
+/* index.html */
+
+.home article section {
+    margin-top: 2em;
+    margin-bottom: 10em;
+    padding: 4em 2em;
+}
+
+#index-html .link-home {
+    display: none;
+}
+
+#index-html #portrait img {
+    width: 148px;
+    margin-top: -50px;
+}
+
+@media (min-width: 700px) {
+    #index-html #portrait {/*
+        overflow: hidden;
+        height: 130px;
+        margin-top: -50px;*/
+    }
+    #index-html #portrait img {
+        position: relative;
+        width: 100%;
+    }
+}
+
 
 /*Blog index.html*/
 
@@ -254,6 +306,15 @@ ul.index .link-out {
     display:block;
     margin-bottom: 0.5em;
 }
+
+/*pinboard*/
+
+#pinboard a.pin-tag {
+    color: rgb(102,102,102);
+    font-size: 80%;
+    margin: 0px 0.2em;
+}
+
 
 .zzz,.zzz a{float:right;font-size:.001px;color:transparent;display:inline-block;width:0px;text-decoration:none;}
 
