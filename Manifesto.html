@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.png">
+        <script type="text/javascript" src="js/modernizr.custom.30122.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/scrollspy.js"></script>		
+        <!--metadata-->
+        <title>User Data Manifesto v2 Draft</title>
+        <meta name="author" content="Hugo Roy et al.">
+        <meta name="description" content="Draft of the User Data Manifesto v2 by Frank">
+        <meta name="keywords" content="user data manifesto, rights, free software, services, freedom">
+    </head>
+    <body class="lang-en page" id="Manifesto-html" data-spy="scroll" data-target="#menu" data-offset="230">
+        <header id="top">
+            <a rel="home" class="link-home" href="index.html">
+                <span title="Go Back Home">↶</span>
+                <img id="ma-tete" alt="Hugo Roy" title="Hugo Roy" src="favatar.png" />
+            </a>
+            <div id="lang-select">
+                <span class="current">English</span> 
+                <!--a href="index.html">Français</a-->
+            </div>
+            <p>This is a draft! The current manifesto is up at <a href="http://userdatamanifesto.org">userdatamanifesto.org</a>. Please <a href="http://github.com/hugoroy/user-data-manifesto">give your feedback ☺</a></p>
+        </header>
+        <article role="main">
+            <section>
+                <h1 id="user-data-manifesto">user data manifesto</h1>
+                <p>“User data” means any data submitted by or collected from a person using a service on the Internet, on which a user has power.<sup><a href="#fn1" class="footnoteRef" id="fnref1">1</a></sup></p>
+                <p>This manifesto aims at defining basic rights for people regarding their own data in the Internet age. Roughly, we refuse feudalism: people ought to be free and should not have to pay allegiance to service providers.</p>
+                <p>Thus, users should have:</p>
+                <ol type="1">
+                <li><p>Control over user data access</p>
+                <p>The data that the user uploads should be under control of this person. Users should be able to decide whom to grant direct access to their data and under which permissions.<sup><a href="#fn2" class="footnoteRef" id="fnref2">2</a></sup></p>
+                <p>Cryptography<sup><a href="#fn3" class="footnoteRef" id="fnref3">3</a></sup> is necessary to ensure this.</p></li>
+                <li><p>Knowledge of where the data is stored</p>
+                <p>When the data is uploaded to a specific storage provider, users should be able to know: where their data is stored, how long, in which country, and which laws apply.</p>
+                <p>It is recommended that all users have their own server in the long term and that users do not rely on centralised services. Use of peer-to-peer systems and unhosted apps are a means to that end.</p></li>
+                <li><p>Right to leave a platform</p>
+                <p>Users should always be able to extract their data at any time without being locked in to a specific service.</p>
+                <p>Open standards for formats and protocols, as well as access to the program under a Free Software license are necessary to achieve this.<sup><a href="#fn4" class="footnoteRef" id="fnref4">4</a></sup></p></li>
+                </ol>
+            </section>
+            <section>
+                <p>If users have these, they are in control and can reasonably trust the services they use, rather than paying allegiance to the operator of a service.</p>
+                <p>When users control access to data they upload, it also applies to the operator of the service and to governments. Thus, a service should not force you to disclose private data (including private correspondence). That also means the right to use cryptography<sup><a href="#fn5" class="footnoteRef" id="fnref5">5</a></sup> should never be denied. Exceptions where the user of a service “forces” the user to give access to some user data to the service provider includes cases where data that is necessary for the service to perform the service.<sup><a href="#fn6" class="footnoteRef" id="fnref6">6</a></sup></p>
+                <p>Some services allow users to submit data with the intention to make it publicly available for all. Even in these cases, some amount of user data is kept private. The user should also have control over this data. This usually applies to so-called “metadata” or to the social graph.</p>
+                <p>When users make data available to others, whether to a restrictive group of people or to large groups, they should be able to decide under which permissions they grant access to this data. However, this right is not absolute and should not extend over others' rights to use the data once it has been made available to them. What's more, it does not mean that users should have the right to impose insane restrictions to other people. But this should be ultimately under the user's control, not under the control of the operator of the service.</p>
+                <p>Ultimately, to ensure that user data is under the users' control, the best technical designs include peer-to-peer or distributed systems, and unhosted applications. Legally, that means terms of service should respect users' rights.</p>
+                <p>In the long term, all users should have their own server.</p>
+
+                <!--
+
+                I'm really not sure this is necessary:
+
+                Even then, there are possibly additional issues regarding control
+                over user data. One of the most important is when user data is
+                being stored by the operator of the service. In these cases,
+                another layer of complexity is added, especially regarding legal
+                issues.  Thus, when the user data is stored, users should be able
+                to know where it is, and which laws applies to it. Obviously, when
+                user data is made public, this requirement makes less sense. But
+                most of the time, this is actually imperative as a lot of services
+                dealing with user data are designed in a central fashion.
+
+                -->
+ 
+                <p>But it is also important that users are not stuck into a specific technical solution. This is why people should always be able to leave a platform and settle elsewhere. It means users should be able to have their data in an open format, and to exchange information with an open protocol. <a href="http://fsfe.org/activities/os/def.html">Open standards</a> are standards that are free of copyright and patent constraints. Obviously, without the source code of the programs used to deal with user data, this is impractical. This is why programs should be distributed under a Free Software license.</p>
+            </section>
+            <hr />
+            <section>
+                <p>FAQ:</p>
+                <ol type="1">
+                <li>what's <em>not</em> user data?</li>
+                </ol>
+                <p>User data is not necessarily private data and does not necessarily relate to a person or contains personnally identifiable information. Thus, this manifesto does not aim at modifying personal data regulations, but rather aim at complementing them.</p>
+           </section>
+            <hr />
+            <section class="footnotes">
+                <p>Footnotes</p>
+                <ol>
+                <li id="fn1"><p>For instance, the power to edit or move such data. That means that anonymously “dumped” data, e.g. on pastebin, or data that can be edited directly by anybody, e.g. a public etherpad, do not usually deal with user data.<a href="#fnref1">↩</a></p></li>
+                <li id="fn2"><p><a href="#fnref6" id="fn6">^6</a> Services shall apply this principle in spirit. However, we understand that in order to provide some services such as providing email, some amount of user data needs to be accessed by the service provider (e.g. the email metadata from:, to: etc.) This is why Rule #2 is important.<a href="#fnref2">↩</a></p></li>
+                <li id="fn3"><p><a href="#fnref5" id="fn5">^5</a> We mean effective cryptography. If the service provider enables cryptography but controls the keys or encrypts the data with your password, it's probably <a href="https://en.wikipedia.org/wiki/Snake_oil_%28cryptography%29">snake oil</a>.<a href="#fnref3">↩</a></p></li>
+                <li id="fn4"><p>The GNU AGPL-3+ safeguards this right by making it a legal obligation to provide access to the modified program run by the service provider. (§ 13. Remote Network Interaction)<a href="#fnref4">↩</a></p></li>
+                </ol>
+            </section>
+        </article>
+        <aside>
+            <form action="https://duckduckgo.com/" name="x" id="search" class="input-prepend input-append">
+                <input name="sites" value="hugoroy.eu" type="hidden">
+                <span class="add-on"><i class="icon-search"></i></span>
+                <input name="q" type="text" placeholder="Search" class="form-control">
+                <span class="input-group-btn" id="duckgoforit" onclick="document.x.submit()"><a class="btn btn-default" href="#search">Go!</a></span>
+            </form>
+            <ul class="nav"><li><a href="#top">↑ Back</a></li></ul>
+        </aside>
+        <footer id="bottom">
+        <p id="legal" role="contentinfo">Except otherwise mentioned, the
+        content of this page is published by <a href="/" rel="author">Hugo Roy</a> under a
+        <a rel="license"
+            href="//creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+            license allowing sharing and modifications under some
+            conditions</a> or, at your option, <a
+            href="//creativecommons.org/licenses/by-sa/3.0/fr/">the French
+            version</a> or the <a href="http://artlibre.org">Free Art License
+            1.3</a>.</p>
+        <p><a href="http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/?_r=0#p[WdeFte]%2Ch[WdeFte%2C3]" target="_blank">Hint</a>: Press the Shift key twice (needs JavaScript).</p>
+        </footer>
+        <script type="text/javascript" src="js/emphasis.js"></script>
+    </body>
+</html>
