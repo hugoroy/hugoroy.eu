@@ -32,7 +32,7 @@ article p,article h1,article h2,article h3,article h4,article h5,article h6{max-
 .home article section{margin-top:2em;margin-bottom:10em;padding:4em 2em;}
 #index-html .link-home{display:none;}
 #index-html #portrait img{width:148px;margin-top:-50px;}
-@media (min-width:700px){#index-html #portrait{} #index-html #portrait img{position:relative;width:100%;}}
+@media (min-width:700px){#index-html #portrait{} #index-html #portrait img{position:relative;width:100%;}}#contact .alert-block{max-width:580px;}
 ul.index{list-style:none;margin-left:0;padding-left:0;}
 ul.index time{margin-left:-2em;margin-right:2em;padding-left:0.5em;text-align:right;color:#666;display:inline-block;width:120px;}
 @media (max-width:960px){ul.index time{display:block;text-align:left;margin-top:0.6em;}}@media (min-width:960px){ul.index li p{margin-left:120px;padding-left:0.25em;}}ul.index .authors .avatar{height:1.1em;margin-left:.5em;box-shadow:0 0 0 transparent;}
