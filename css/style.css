@@ -8,9 +8,10 @@ img{max-width:100%;}
 #top .link-home span{position:absolute;display:block;width:48px;height:32px;text-align:center;padding-top:16px;font-size:32px;visibility:hidden;color:transparent;}
 #top .link-home span,#ma-tete{border-width:1px;border-style:solid;border-radius:140px;}
 #ma-tete{width:48px;height:48px;box-shadow:0 0 0.5em rgba(0, 0, 0, 0.3);}
-#lang-select{font-size:0.8em;padding:0.5em;}
+#lang-select{font-size:0.9em;padding:0.5em;}
 #bottom{margin:4em 0 0 0;clear:both;min-height:3.8em;}
 #search{z-index:30;}
+#search #duckgoforit .glyphicon-search{opacity:0.5;}
 @media (min-width:700px){aside{width:180px;left:0;float:left;} article{margin:0 0 0 220px;} #bottom{margin-left:220px;} #search{position:fixed;bottom:20px;width:180px;}}@media (min-width:1300px){aside,#search{width:220px;} article,#bottom{margin-left:320px;}}#menu{margin:2em 0;border-right:1px solid rgba(0, 0, 0, 0.1);}
 #menu .nav li{display:inline-block;width:9em;text-align:center;}
 .home #menu .nav li{width:19%;min-width:8em;}
