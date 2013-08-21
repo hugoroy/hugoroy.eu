@@ -270,14 +270,14 @@
                       <a href="http://webchat.freenode.net/?channels=#fsfe">#fsfe</a>, <a href="http://webchat.freenode.net/?channels=#unhosted">#unhosted</a>,  <a href="http://webchat.freenode.net/?channels=#tosdr">#tosdr</a>
                         </dd>
                 </dl>
-                <p id="bitcoin"><a href="http://bitcoin.org/en">Bitcoin</a> address <code>17cC8DpcgbCCrs5BiXHgcCK4542qujH1VT</code> <a href="bitcoin.png"><span class="glyphicon glyphicon-qrcode">png</span></a></p>
+                <p id="bitcoin"><a href="http://bitcoin.org/en">Bitcoin</a> address <code>17cC8DpcgbCCrs5BiXHgcCK4542qujH1VT</code> <a href="bitcoin.png"><span class="glyphicon glyphicon-qrcode"></span> png</a></p>
                 <hr />
                 <dl id="crypto">
                   <dt>Encryption keys</dt>
                     <dd><img alt="Key" class="icon" src="site/img/clef.png" />
                     <a href="http://gnupg.org/index.html">openPGP</a>
                     <code>B3D7 B795</code> [<a
-                    href="Hugo-Roy-pub-B3D7B795-2013-2016.png"><span class="glyphicon glyphicon-qrcode">png</span></a>, <a
+                    href="Hugo-Roy-pub-B3D7B795-2013-2016.png"><span class="glyphicon glyphicon-qrcode"></span> png</a>, <a
                         href="Hugo-Roy-pub-B3D7B795-2013-2016.txt">txt</a>, <a
                         href="Hugo-Roy-pub-B3D7B795-2013-2016.pgp"
                         download>pgp</a>] Expires in 2016.</dd>
@@ -306,11 +306,10 @@
             </section>
         </article>
         <aside>
-            <form action="https://duckduckgo.com/" name="x" id="search" class="input-prepend input-append">
+            <form action="https://duckduckgo.com/" name="x" id="search" class="input-group">
                 <input name="sites" value="hugoroy.eu" type="hidden">
-                <span class="add-on"><i class="icon-search"></i></span>
-                <input name="q" type="text" placeholder="Search" class="input-tiny">
-                <span class="add-on" id="duckgoforit" onclick="document.x.submit()"><a href="#search">Go!</a></span>
+                <input name="q" type="text" placeholder="Search" class="form-control">
+                <span class="input-group-btn" id="duckgoforit" onclick="document.x.submit()"><a class="btn btn-default" href="#search-with-duckduckgo-js">Go!</a></span>
             </form>
             <ul class="nav"><li><a href="#top">↑ Back</a></li></ul>
         </aside>
