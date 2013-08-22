@@ -12,6 +12,7 @@ img{max-width:100%;}
 #bottom{margin:4em 0 0 0;clear:both;min-height:3.8em;}
 #search{z-index:30;}
 #search #duckgoforit .glyphicon-search{opacity:0.5;}
+aside{font-size:0.9em;}
 @media (min-width:700px){aside{width:180px;left:0;float:left;} article{margin:0 0 0 220px;} #bottom{margin-left:220px;} #search{position:fixed;bottom:20px;width:180px;}}@media (min-width:1300px){aside,#search{width:220px;} article,#bottom{margin-left:320px;}}#menu{margin:2em 0;border-right:1px solid rgba(0, 0, 0, 0.1);}
 #menu .nav li{display:inline-block;width:9em;text-align:center;}
 .home #menu .nav li{width:19%;min-width:8em;}
@@ -35,7 +36,7 @@ article p,article h1,article h2,article h3,article h4,article h5,article h6{max-
 #index-html #portrait img{width:148px;margin-top:-50px;}
 @media (min-width:700px){#index-html #portrait{} #index-html #portrait img{position:relative;width:100%;}}#contact .alert-block{max-width:580px;}
 ul.index{list-style:none;margin-left:0;padding-left:0;}
-ul.index time{margin-left:-2em;margin-right:2em;padding-left:0.5em;text-align:right;color:#666;display:inline-block;width:120px;}
+ul.index time{margin-left:-2em;margin-right:2em;padding-left:0.5em;text-align:right;color:#666;display:inline-block;width:7.5em;}
 @media (max-width:960px){ul.index time{display:block;text-align:left;margin-top:0.6em;}}@media (min-width:960px){ul.index li p{margin-left:120px;padding-left:0.25em;}}ul.index .authors .avatar{height:1.1em;margin-left:.5em;box-shadow:0 0 0 transparent;}
 ul.index .link-out{color:#666;font-size:80%;margin:0 .4em;}
 .no-js #talks ul.index li p.collapse{display:block;height:auto;}
