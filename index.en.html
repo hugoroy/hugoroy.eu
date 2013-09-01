@@ -15,11 +15,16 @@
         <!--metadata-->
         <title>Hugo Roy</title>
         <link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" />
-        <link type="text/html" rel="alternate" hreflang="fr" href="index.html" lang="fr" title="Page personnelle d'Hugo Roy" />
-        <link rel="alternate" type="application/rss+xml" href="feed.rss" title="Hugo Roy's weblog">
+        <link rel="profile" href="http://microformats.org/profile/hcard">
+        <link rel="alternate" type="text/html" hreflang="fr" href="index.html"
+          lang="fr" title="Page personnelle d'Hugo Roy" />
+        <link rel="alternate" type="application/rss+xml" href="feed.rss"
+          title="Hugo Roy's weblog">
         <meta name="author" content="Hugo Roy">
-        <meta name="description" content="Hugo Roy--free software activist and zappa freak--'s homepage.">
-        <meta name="keywords" content="free software, legal, licenses, hugoroyd, fsfe, hugo royd devred">
+        <meta name="description" content="Hugo Roy--free software activist and
+          zappa freak--'s homepage.">
+        <meta name="keywords" content="free software, legal, licenses,
+          hugoroyd, fsfe, hugo royd devred">
     </head>
     <body class="lang-en home" id="index-html" data-spy="scroll" data-target="#menu" data-offset="230">
         <header id="top">
@@ -34,7 +39,7 @@
             </div>
         </header>
         <aside id="portrait">
-            <img src="images/avatar/big-portrait.jpg" alt="Portrait" /> 
+            <img src="images/avatar/big-portrait.jpg" class="photo" rel="me" alt="Portrait" /> 
         </aside>
         <aside id="menu">
             <ul class="nav" role="menu">
@@ -49,14 +54,18 @@
                 <li><a href="#pinboard">Pinboard</a></li>
             </ul>
         </aside>
-        <article role="main">
+        <article role="main" class="vcard" id="hcard-Hugo-Roy">
             <section id="hugoroy">
+            <h1 class="hide fn">Hugo Roy</h1>
             <p>I am the project leader for <a href="//tosdr.org"><img alt=""
-                src="//tosdr.org/img/tosdr-icon-19.png"> Terms of Service;
-                Didn't Read</a> and I sit on the board of the General Assembly
-            of the <a href="//www.fsfe.org"><img alt=""
-                src="//fsfe.org/graphics/stars-smaller.png" height="19"> Free
-                Software Foundation Europe (FSFE)</a>.</p>
+                src="//tosdr.org/img/tosdr-icon-19.png"> 
+                <span class="org" title="ToSDR">Terms of Service; Didn't Read</span></a> 
+            and I sit on the board of the General Assembly
+            of the 
+            <a href="//www.fsfe.org"><img alt=""
+                src="//fsfe.org/graphics/stars-smaller.png" height="19"> 
+                <span class="org">Free
+                    Software Foundation Europe (FSFE)</span></a>.</p>
             <p>I say things  <a href="https://twitter.com/hugoroyd" rel="me">on
                 Twitter</a> or on <a
                 href="//identi.ca/hugoroy" rel="me">identi.ca</a>. This is <a
@@ -76,7 +85,7 @@
             <blockquote><p>Without deviation from the norm, progress <a
                     href="//www.youtube.com/embed/mOHCV-QO5HA">is not
                     possible</a>.</p>
-            <p class="origin">— Frank Zappa (1940-1993)</p></blockquote>
+            <small>Frank Zappa (1940-1993)</small></blockquote>
             <blockquote><p>Dans la pratique — les révolutionnaires se trompent
                 toujours, parce qu’ils croient toujours la vérité trop simple,
                 ont trop confiance en eux-mêmes et s’imaginent qu’ils ont
@@ -95,218 +104,241 @@
                 ends which one has put before one’s self,  only to transform
                 them; to solve problems only by changing  their data.</em>
             </p>
-            <p class="origin">— Jean-Marie Guyau, <a
+            <small>Jean-Marie Guyau, <a
                 href="http://openlibrary.org/works/OL1546922W/Esquisse_d%27une_morale_sans_obligation_ni_sanction"><cite>Esquisse
                     d’une morale sans obligation ni sanction</cite></a>,
-            «&nbsp;Le risque métaphysique dans la spéculation&nbsp;», 1885</p>
+            «&nbsp;Le risque métaphysique dans la spéculation&nbsp;», 1885</small>
             </blockquote>
             </section>
             <section id="blog">
-            <p class="pull-right subscribers"><a href="feed.rss" class="btn btn-warning btn-mini">Subscribe to feed [rss]</a>
-              <a href="http://feedburner.google.com/fb/a/mailverify?uri=HugoRoy&amp;loc=en_US" class="btn btn-info btn-mini">Subscribe by email</a></p>
+            <p class="pull-right subscribers"><a href="feed.rss" class="btn
+                btn-warning btn-mini">Subscribe to feed [rss]</a> <a
+                href="http://feedburner.google.com/fb/a/mailverify?uri=HugoRoy&amp;loc=en_US"
+                class="btn btn-info btn-mini">Subscribe by email</a></p>
             <ul class="index">
-                <li id="2013-08-01">
-                <time datetime="2013-08-01T16:05:41Z">8 Aug 2013</time>
-                <a href="//identi.ca/hugoroy/note/8zgqhZC8TiOU4Lu6EZSdlg">Here’s why economists hate software patents</a> <span class="link-out">(identi.ca)</span></li>
-
-                <li id="2013-06-20">
-                <time datetime="2013-06-20">20 Jun 2013</time>
-                <a href="//blogs.fsfe.org/hugo/2013/06/vim-tip-make-arrows-behave-in-vim-like-in-a-gui-text-editor/">Vim Tip: Make arrows behave in VIM like in a GUI text editor</a> <span class="link-out">(blogs.fsfe.org)</span>
+                <li class="hentry" id="2013-08-01">
+                <time class="dt-published" datetime="2013-08-01T16:05:41Z">8 Aug 2013</time>
+                <a class="p-name" href="//identi.ca/hugoroy/note/8zgqhZC8TiOU4Lu6EZSdlg">Here’s why economists hate software patents</a> <span class="link-out">(identi.ca)</span></li>
+                <li class="hentry" id="vim-tip-arrow keys">
+                    <time class="dt-published" datetime="2013-06-20">20 Jun 2013</time>
+                    <a class="p-name" href="//hugoroy.eu/blog/vim-tip-make-arrows-behave-in-vim-like-in-a-gui-text-editor.html">Vim Tip: arrow keys</a> 
                 </li>
-
-                <li id="2013-06-17">
-                <time datetime="2013-06-17T11:20:00+0200">17 Jun 2013</time>
-                <a href="//tosdr.org/blog/tosdr-in-action-owned.html">ToS:DR in Action: “What is yours stays yours”: Oh, really?</a> <span class="link-out">(tosdr.org)</span>
+                <li class="hentry" id="2013-06-17">
+                <time class="dt-published" datetime="2013-06-17T11:20:00+0200">17 Jun 2013</time>
+                <a class="p-name" href="//tosdr.org/blog/tosdr-in-action-owned.html">ToS;DR in Action: “What is yours stays yours”: Oh, really?</a> <span class="link-out">(tosdr.org)</span>
                 </li>
-                
-                <li id="2013-06-10">
-                <time datetime="2013-06-10T16:53:00+0200">10 Jun 2013</time>
-                <a href="//tosdr.org/blog/tosdr-in-action-i-have-read-and-agree.html">ToS;DR in Action: “I have read and agree to the terms”</a> <span class="link-out">(tosdr.org)</span>
+                <li class="hentry" id="2013-06-10">
+                <time class="dt-published" datetime="2013-06-10T16:53:00+0200">10 Jun 2013</time>
+                <a class="p-name" href="//tosdr.org/blog/tosdr-in-action-i-have-read-and-agree.html">ToS;DR in Action: “I have read and agree to the terms”</a> <span class="link-out">(tosdr.org)</span>
                 </li>
-
-                <li id="2013-05-30">
-                <time datetime="2013-05-30T14:22:32+00:00">30 May 2013</time>
-                <a href="//blogs.fsfe.org/hugo/2013/05/whos-tracking-me-online-the-most-google-or-facebook/">Who’s tracking me online the most: Google or Facebook?</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-
-                <li id="2013-05-21">
-                <time datetime="2013-05-21">21 May 2013</time>
-                <a href="//blogs.fsfe.org/hugo/?p=545">Google Talk discontinued</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-
-                <li id="2013-05-10">
-                <time datetime="2013-05-10">10 May 2013</time>
-                <a href="http://blog.hugoroy.eu/2013/05/10/patentbs-2-software-patents-critics-are-against-innovation/">PatentBS #2: Software patents critics are against innovation</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
-                
-                <li id="2013-04-16">
-                <time datetime="2013-04-16">16 Apr 2013</time>
-                <a href="//blogs.fsfe.org/hugo/?p=523">A (small) lesson about patent FUD.</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-                    
-                <li id="2013-01-13">
-                <time datetime="2013-01-13">13 Jan 2013</time>
-                <a href="//blogs.fsfe.org/hugo/2013/01/in-2013-enlarge-your-patentz/">In 2013: Enlarge your patentz!</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-
-                <li id="2012-12-24">
-                <time datetime="2012-12-24">24 Dec 2012</time>
-                <a href="http://blog.hugoroy.eu/2012/12/24/patentbs-series-1-abolishing-software-patents-would-harm-free-software/">PatentBS series #1: Abolishing software patents would harm Free Software</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
-                    
-                <li id="2012-11-19"><time datetime="2012-11-19T11:10:00+0200">19 Nov 2012</time>
-                <a href="//tosdr.org/blog/why-no-class-yet.html">Why so many services have "No Class Yet"</a> <span class="link-out">(tosdr.org)</span></li>
-
-                <li id="2012-10-10">
-                <time datetime="2012-10-10">10 Oct 2012</time>
-                <a href="http://blog.hugoroy.eu/2012/10/10/some-facts-about-the-us-patent-system/">Some facts about the US patent system</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
-                
-                <li id="2012-08-13"><time datetime="2012-08-13T15:55:56+0000">13 Aug 2012</time>
-                <a href="http://blog.hugoroy.eu/2012/08/13/terms-of-service-didnt-read-pre-alpha-release-we-need-your-contributions/">Terms of Service; Didn&#8217;t Read: pre-alpha release. We need your contributions</a><span class="link-out">(blog.hugoroy.eu)</span></li>
-                
-                <li id="2012-06-18"><time datetime="2012-06-18T17:25:30+0000">18 Jun 2012</time>
-                <a href="http://blog.hugoroy.eu/2012/06/18/facebook-updates-the-terms-of-service-but-were-watching-them-22/">Facebook updates the Terms of Service. But we’re watching them. (2/2)</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
-                
-                <li id="2012-06-13"><time datetime="2012-06-13T16:17:20+0000">13 Jun 2012</time>
-                <a href="http://blog.hugoroy.eu/2012/06/13/facebook-update-their-terms-of-service-but-were-watching-them/">Facebook updates the Terms of Service. But we&#8217;re watching them. (1)</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
-
-                <li id="2012-02-23">
-                <time datetime="2012-02-23">23 Feb 2012</time>
-                <a href="http://blog.hugoroy.eu/2012/02/23/free-software-v-open-source-community/">Free Software v. “Open Source” community?</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
-
-                <li id="2010-04-30">
-                <time datetime="2010-04-30">30 Apr 2010</time>
-                <a href="http://blogs.fsfe.org/hugo/2010/04/open-letter-to-steve-jobs/">Open Letter to Steve Jobs (and a reply)</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-
-                <li id="2010-04-21">
-                <time datetime="2010-04-21">21 Apr 2010</time>
-                <a href="http://blogs.fsfe.org/hugo/2010/04/acta-threats-to-free-software/">ACTA: threats to Free Software</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-
-                <li id="2010-01-14">
-                <time datetime="2010-01-14">14 Jan 2010</time>
-                <a href="http://blogs.fsfe.org/hugo/2010/01/the-end-of-privacy-on-facebook/">The end of privacy on Facebook</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-
-                <li id="2009-11-08">
-                <time datetime="2009-11-08">8 Nov 2009</time>
-                <a href="http://blogs.fsfe.org/hugo/2009/11/free-software-free-society-of-democracy-and-hacking-draft-1/">Free Software, Free Society: Of Democracy and Hacking</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+                <li class="hentry" id="2013-05-30">
+                <time class="dt-published" datetime="2013-05-30T14:22:32+00:00">30 May 2013</time>
+                <a class="p-name" href="//blogs.fsfe.org/hugo/2013/05/whos-tracking-me-online-the-most-google-or-facebook/">Who’s tracking me online the most: Google or Facebook?</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+                <li class="hentry" id="2013-05-21">
+                <time class="dt-published" datetime="2013-05-21">21 May 2013</time>
+                <a class="p-name" href="//blogs.fsfe.org/hugo/?p=545">Google Talk discontinued</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+                <li class="hentry" id="2013-05-10">
+                <time class="dt-published" datetime="2013-05-10">10 May 2013</time>
+                <a class="p-name" href="http://blog.hugoroy.eu/2013/05/10/patentbs-2-software-patents-critics-are-against-innovation/">PatentBS #2: Software patents critics are against innovation</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
+                <li class="hentry" id="2013-04-16">
+                <time class="dt-published" datetime="2013-04-16">16 Apr 2013</time>
+                <a class="p-name" href="//blogs.fsfe.org/hugo/?p=523">A (small) lesson about patent FUD.</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+                <li class="hentry" id="2013-01-13">
+                <time class="dt-published" datetime="2013-01-13">13 Jan 2013</time>
+                <a class="p-name" href="//blogs.fsfe.org/hugo/2013/01/in-2013-enlarge-your-patentz/">In 2013: Enlarge your patentz!</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+                <li class="hentry" id="2012-12-24">
+                <time class="dt-published" datetime="2012-12-24">24 Dec 2012</time>
+                <a class="p-name" href="http://blog.hugoroy.eu/2012/12/24/patentbs-series-1-abolishing-software-patents-would-harm-free-software/">PatentBS series #1: Abolishing software patents would harm Free Software</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
+                <li class="hentry" id="2012-11-19"><time class="dt-published" datetime="2012-11-19T11:10:00+0200">19 Nov 2012</time>
+                <a class="p-name" href="//tosdr.org/blog/why-no-class-yet.html">Why so many services have "No Class Yet"</a> <span class="link-out">(tosdr.org)</span></li>
+                <li class="hentry" id="2012-10-10">
+                <time class="dt-published" datetime="2012-10-10">10 Oct 2012</time>
+                <a class="p-name" href="http://blog.hugoroy.eu/2012/10/10/some-facts-about-the-us-patent-system/">Some facts about the US patent system</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
+                <li class="hentry" id="2012-08-13"><time class="dt-published" datetime="2012-08-13T15:55:56+0000">13 Aug 2012</time>
+                <a class="p-name" href="http://blog.hugoroy.eu/2012/08/13/terms-of-service-didnt-read-pre-alpha-release-we-need-your-contributions/">Terms of Service; Didn&#8217;t Read: pre-alpha release. We need your contributions</a><span class="link-out">(blog.hugoroy.eu)</span></li>
+                <li class="hentry" id="2012-06-18"><time class="dt-published" datetime="2012-06-18T17:25:30+0000">18 Jun 2012</time>
+                <a class="p-name" href="http://blog.hugoroy.eu/2012/06/18/facebook-updates-the-terms-of-service-but-were-watching-them-22/">Facebook updates the Terms of Service. But we’re watching them. (2/2)</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
+                <li class="hentry" id="2012-06-13"><time class="dt-published" datetime="2012-06-13T16:17:20+0000">13 Jun 2012</time>
+                <a class="p-name" href="http://blog.hugoroy.eu/2012/06/13/facebook-update-their-terms-of-service-but-were-watching-them/">Facebook updates the Terms of Service. But we&#8217;re watching them. (1)</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
+                <li class="hentry" id="2012-02-23">
+                <time class="dt-published" datetime="2012-02-23">23 Feb 2012</time>
+                <a class="p-name" href="http://blog.hugoroy.eu/2012/02/23/free-software-v-open-source-community/">Free Software v. “Open Source” community?</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
+                <li class="hentry" id="2010-04-30">
+                <time class="dt-published" datetime="2010-04-30">30 Apr 2010</time>
+                <a class="p-name" href="http://blogs.fsfe.org/hugo/2010/04/open-letter-to-steve-jobs/">Open Letter to Steve Jobs (and a reply)</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+                <li class="hentry" id="2010-04-21">
+                <time class="dt-published" datetime="2010-04-21">21 Apr 2010</time>
+                <a class="p-name" href="http://blogs.fsfe.org/hugo/2010/04/acta-threats-to-free-software/">ACTA: threats to Free Software</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+                <li class="hentry" id="2010-01-14">
+                <time class="dt-published" datetime="2010-01-14">14 Jan 2010</time>
+                <a class="p-name" href="http://blogs.fsfe.org/hugo/2010/01/the-end-of-privacy-on-facebook/">The end of privacy on Facebook</a> <span class="link-out">(blogs.fsfe.org)</span></li>
+                <li class="hentry" id="2009-11-08">
+                <time class="dt-published" datetime="2009-11-08">8 Nov 2009</time>
+                <a class="p-name" href="http://blogs.fsfe.org/hugo/2009/11/free-software-free-society-of-democracy-and-hacking-draft-1/">Free Software, Free Society: Of Democracy and Hacking</a> <span class="link-out">(blogs.fsfe.org)</span></li>
             </ul>
             <ul class="index">
                 <li id="2013-archives"><time>2013</time> <a href="http://blog.hugoroy.eu/2013">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span>
                 <a href="//blogs.fsfe.org/hugo/2013/">Archives</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-
                 <li id="2012-archives"><time>2012</time> <a href="http://blog.hugoroy.eu/2012">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span>
                 <a href="//blogs.fsfe.org/hugo/2012/">Archives</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-                
                 <li id="2011-archives"><time>2011</time> <a href="http://blog.hugoroy.eu/2011">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span>
                 <a href="//blogs.fsfe.org/hugo/2011/">Archives</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-
                 <li id="2010-archives"><time>2010</time> <a href="http://blog.hugoroy.eu/2010">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span>
                 <a href="//blogs.fsfe.org/hugo/2010/">Archives</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-
                 <li id="2009-archives"><time>2009</time> <a href="http://blog.hugoroy.eu/2009">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span>
                 <a href="//blogs.fsfe.org/hugo/2009/">Archives</a> <span class="link-out">(blogs.fsfe.org)</span></li>
-
                 <li id="2008-archives"><time>2008</time> <a href="http://blog.hugoroy.eu/2008">Archives</a> <span class="link-out">(blog.hugoroy.eu)</span></li>
             </ul>
             </section>
             <section id="talks">
             <p class="pull-right subscribers"><a href="//speakerdeck.com/hugo.atom" class="btn btn-warning btn-mini">Subscribe to feed [rss]</a></p>
             <ul class="index">
-                <li id="html-usage-restrictions"><time datetime="2013-07-08">Jul 2013</time> <a href="//video.rmll.info/videos/towards-usage-restrictions-into-html/">Towards usage restrictions in HTML? [video]</a> <span class="link-out">(video.rmll.info)</span>
+                <li class="hentry" id="html-usage-restrictions"><time class="dt-published" datetime="2013-07-08">Jul 2013</time> <a class="p-name" href="//video.rmll.info/videos/towards-usage-restrictions-into-html/">Towards usage restrictions in HTML? [video]</a> <span class="link-out">(video.rmll.info)</span>
                 <span data-toggle="collapse" data-target="#html-usage-restrictions-intro" class="collapser glyphicon glyphicon-chevron-right"></span>
-                <p class="collapse" id="html-usage-restrictions-intro">A 20min introduction to know what “Encrypted Media Extensions” in HTML are about: usage restrictions. To read more about it: <a href="//lwn.net/Articles/550424/">DRM in HTML5 published in draft form</a>
+                <p class="collapse p-summary" id="html-usage-restrictions-intro">A 20min introduction to know what “Encrypted Media Extensions” in HTML are about: usage restrictions. To read more about it: <a href="//lwn.net/Articles/550424/">DRM in HTML5 published in draft form</a>
                 <br /><a href="//speakerdeck.com/hugo/towards-usage-restrictions-in-html-rmll-2013">[slides]</a></p>
                 </li>
-                <li id="ep-hearing-201301"><time datetime="2013-01">Jan 2013</time> <a href="//tosdr.org/ep-hearing-201301.html">What's wrong with data protection - does consent really work? [slides + draft]</a> <span class="link-out">(tosdr.org)</span> 
+                <li class="hentry" id="ep-hearing-201301"><time class="dt-published" datetime="2013-01">Jan 2013</time> <a class="p-name" href="//tosdr.org/ep-hearing-201301.html">What's wrong with data protection - does consent really work? [slides + draft]</a> <span class="link-out">(tosdr.org)</span> 
                 <span data-toggle="collapse" data-target="#ep-hearing-201301-intro" class="collapser glyphicon glyphicon-chevron-right"></span>
-                <p class="collapse" id="ep-hearing-201301-intro">Panel #2 at the European Parliament in Brussels organised by the EP co-rapporteur for the Data protection regulation.
+                <p class="collapse p-summary" id="ep-hearing-201301-intro">Panel #2 at the European Parliament in Brussels organised by the EP co-rapporteur for the Data protection regulation.
                 <br /><a href="//www.greens-efa.eu/what-s-wrong-with-data-protection-9043.html">[event]</a> <span class="link-out">(greens-efa.eu)</span> <a href="http://greenmediabox.eu/archive/2013/01/31/what-s-wrong-with-data-protection/">[video]</a> <span class="link-out">(greenmediabox.eu)</span></p>
-                <li id="29c3"><time datetime="2012-12">Dec 2012</time> <a href="//tosdr.org/29c3.html">Fixing the biggest lie on the web! [video + slides]</a> <span class="link-out">(tosdr.org)</span>
+                <li class="hentry" id="29c3"><time class="dt-published" datetime="2012-12">Dec 2012</time> <a class="p-name" href="//tosdr.org/29c3.html">Fixing the biggest lie on the web! [video + slides]</a> <span class="link-out">(tosdr.org)</span>
                 <span data-toggle="collapse" data-target="#29c3-intro" class="collapser glyphicon glyphicon-chevron-right"></span>
-                <p class="collapse" id="29c3-intro"><a href="https://events.ccc.de/congress/2012/wiki/Lightning_Talks">Lightning talk</a> given at 29C3, Hamburg. <a href="//en.wikipedia.org/wiki/Pecha_Kucha">Pecha Kucha</a> style (6 min), introducing Terms of Service; Didn't Read. </p>
+                <p class="collapse p-summary" id="29c3-intro"><a href="https://events.ccc.de/congress/2012/wiki/Lightning_Talks">Lightning talk</a> given at 29C3, Hamburg. <a href="//en.wikipedia.org/wiki/Pecha_Kucha">Pecha Kucha</a> style (6 min), introducing Terms of Service; Didn't Read. </p>
                 </li>
-                <li id="fosdem-2012"><time datetime="2012-02">Feb 2012</time> <a href="//archive.fosdem.org/2012/schedule/event/app_store_panel">Legal Panel on Application Stores and Free Software [event]</a> <span class="link-out">(archive.fosdem.org)</span> 
+                <li class="hentry" id="fosdem-2012"><time class="dt-published" datetime="2012-02">Feb 2012</time> <a class="p-name" href="//archive.fosdem.org/2012/schedule/event/app_store_panel">Legal Panel on Application Stores and Free Software [event]</a> <span class="link-out">(archive.fosdem.org)</span> 
                 <span data-toggle="collapse" data-target="#fosdem-2012-intro" class="collapser glyphicon glyphicon-chevron-right"></span>
-                <p class="collapse" id="fosdem-2012-intro">Concluding panel for the first FOSDEM Legal DevRoom moderated by Richard Fontana, with Giovanni Battista Gallus, Bradley M. Kuhn, and myself on app store legal issues regarding free software.
+                <p class="collapse p-summary" id="fosdem-2012-intro">Concluding panel for the first FOSDEM Legal DevRoom moderated by Richard Fontana, with Giovanni Battista Gallus, Bradley M. Kuhn, and myself on app store legal issues regarding free software.
                 <br /><a href="http://faif.us/cast/2012/mar/13/0x24/">[audio]</a> <span class="link-out">(faif.us)</span></p>
                 </li>
             </ul>
             </section>
             <section id="contact">
-                <div class="alert alert-block fade in">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                    <h4>Off email!</h4>
-                    <p>I'm currently studying for the bar exam. So I'm not watching what comes into my INBOX. Do not contact me unless it's about something that really needs my personal attention, or come back in December 2013.</p>
-                    <p>
-                    <a class="btn btn-default" href="http://fsfe.org/contact/contact.en.html">Contact the FSFE team</a> <a class="btn btn-default" href="//tosdr.org/about.html#contact">Contact the ToS;DR team</a>
-                    </p>
-                </div>
-                <dl>
-                  <dt id="email">Email:</dt>
-                    <dd>
-                    <a href="mailto:aitch%20u%20gee%20o%20at%20hugoroy.eu"><img
-                          alt="mailto:" class="icon" src="site/img/email.png"
-                          /> hu<span class="zzz">SPAM</span>go@hu<span
-                              class="zzz">REMOVE</span>go<span
-                              class="y">roy.eu</span></a> (General)</dd>
-                      <dd>
-                      <a href="mailto:aitch%20u%20gee%20o%20at%20fsfe.org"><img alt="mailto:" class="icon" src="site/img/email.png" /> hu<span class="zzz">SPAM</span>go@f<span class="zzz">REMOVE</span>s<span class="yy">fe.org</span></a> (Free Software)</dd>
-                      <!--dd>
-                      <a href="mailto:aitch u gee o at tosdr.org"><img alt="mailto:" class="icon" src="site/img/email.png" /> hu<span class="zzz">SPAM</span>go@<span class="zzz">REMOVE</span>tos<span class="yy">dr.org</span></a> (Terms of Service)</dd-->
-
-                    <dd><p>Please refrain from sending emails attachments with
+            <div class="alert alert-block fade in">
+                <button type="button" class="close" data-dismiss="alert"
+                    aria-hidden="true">×</button>
+                <h4>Off email!</h4>
+                <p>I'm currently studying for the bar exam. So I'm not watching
+                what comes into my INBOX. Do not contact me unless it's about
+                something that really needs my personal attention, or come back
+                in December 2013.</p>
+                <p> <a class="btn btn-default"
+                    href="http://fsfe.org/contact/contact.en.html">Contact the
+                    FSFE team</a> 
+                <a class="btn btn-default"
+                    href="//tosdr.org/about.html#contact">Contact the ToS;DR
+                    team</a> </p>
+            </div>
+            <dl>
+                <dt id="email">Email:</dt>
+                <dd>
+                    <a href="mailto:aitch%20u%20gee%20o%20at%20hugoroy.eu" 
+                        class="email"><img
+                        alt="mailto:" class="icon" src="site/img/email.png" />
+                        hu<span class="zzz">SPAM</span>go@hu<span
+                            class="zzz">REMOVE</span>go<span
+                            class="y">roy.eu</span></a> (General)
+                </dd>
+                <dd>
+                    <a href="mailto:aitch%20u%20gee%20o%20at%20fsfe.org"
+                        class="email"><img
+                        alt="mailto:" class="icon" src="site/img/email.png" />
+                        hu<span class="zzz">SPAM</span>go@f<span
+                            class="zzz">REMOVE</span>s<span
+                            class="yy">fe.org</span></a> (Free Software)
+                </dd>
+                <dd>
+                    Please refrain from sending emails attachments with
                     Microsoft Word, PowerPoint, etc. <a
                         href="pieces-jointes-standards-ouverts.en.html"
                         title="Send me attachments I can read!">Why use Open
-                        Standards?</a></p>
-                    </dd>
-                    <!--dd>
-                      Please avoid <a href="/open-standards-att.php">proprietary attachments</a> with your emails.
-                    </dd-->
-                    <dt>Calls:</dt>
-                    <!--dd><img alt="phone:" class="icon" src="site/img/phone.png" /> webRTC: <a href="https://apprtc.appspot.com/?r=B3D7B795">apprtc</a></dd-->
-                    <dd><p><img alt="phone:" class="icon" src="site/img/phone.png" />Skype: <a href="http://www.h-online.com/security/news/item/Skype-with-care-Microsoft-is-reading-everything-you-write-1862870.html">Are you kidding me?</a></p></dd>
-                  <dt>Instant Messaging:</dt>
-                    <dd>
-                      <img alt="xmpp:" class="icon" src="site/img/xmppbw.png" /> <a href="xmpp:hugo@jabber.fsfe.org" rel="me">hugo@<span style="color:
-                      #d9531e">jabber</span>.<span style="color: rgb(0, 153,
-                      0);">fsfe.org</span></a> (<a class="aide" href="https://trac.gajim.org/wiki/GajimHelpEn">help</a>)
-                    </dd>
-                    <dd>
-                      <img alt="irc:" class="icon" src="site/img/chat.png" /> hugoroyd@irc.freenode.net
-                      <a href="http://webchat.freenode.net/?channels=#fsfe">#fsfe</a>, <a href="http://webchat.freenode.net/?channels=#unhosted">#unhosted</a>,  <a href="http://webchat.freenode.net/?channels=#tosdr">#tosdr</a>
-                        </dd>
-                </dl>
-                <p id="bitcoin"><a href="http://bitcoin.org/en">Bitcoin</a> address <code>17cC8DpcgbCCrs5BiXHgcCK4542qujH1VT</code> <a href="bitcoin.png"><span class="glyphicon glyphicon-qrcode"></span> png</a></p>
-                <hr />
-                <dl id="crypto">
-                  <dt>Encryption keys</dt>
-                    <dd><img alt="Key" class="icon" src="site/img/clef.png" />
+                        Standards?</a>
+                </dd>
+                <dt>Calls:</dt>
+                <dd>
+                    <img alt="phone:" class="icon" src="site/img/phone.png" />
+                    Skype: <a href="http://www.h-online.com/security/news/item/Skype-with-care-Microsoft-is-reading-everything-you-write-1862870.html">Are you</a> <a href="http://www.theguardian.com/world/2013/jul/11/microsoft-nsa-collaboration-user-data">kidding me?</a>
+                </dd>
+                <dt>Instant Messaging:</dt>
+                <dd>
+                    <img alt="xmpp:" class="icon" src="site/img/xmppbw.png" /> <a href="xmpp:hugo@jabber.fsfe.org" rel="me" class="url">hugo@<span style="color:
+                    #d9531e">jabber</span>.<span style="color: rgb(0, 153,
+                    0);">fsfe.org</span></a> (<a class="aide" href="https://trac.gajim.org/wiki/GajimHelpEn">help</a>)
+                </dd>
+                <dd>
+                    <img alt="irc:" class="icon" src="site/img/chat.png" />
+                    hugoroyd@irc.freenode.net 
+                    <a href="http://webchat.freenode.net/?channels=#fsfe">#fsfe</a>,
+                    <a href="http://webchat.freenode.net/?channels=#unhosted">#unhosted</a>,
+                    <a href="http://webchat.freenode.net/?channels=#tosdr">#tosdr</a>
+                </dd>
+            </dl>
+            <p id="bitcoin"><a href="http://bitcoin.org/en">Bitcoin</a>
+            address <code>1KvVKWivdgRaLyX1Xge5RzbeY946mC3dFV</code> 
+            <a href="bitcoin.png"><span class="glyphicon glyphicon-qrcode"></span> 
+                png</a></p>
+            <hr />
+            <dl id="crypto">
+                <dt>Encryption keys</dt>
+                <dd>
+                    <img alt="Key" class="icon" src="site/img/clef.png" />
                     <a href="http://gnupg.org/index.html">openPGP</a>
-                    <code>B3D7 B795</code> [<a
-                    href="Hugo-Roy-pub-B3D7B795-2013-2016.png"><span class="glyphicon glyphicon-qrcode"></span> png</a>, <a
-                        href="Hugo-Roy-pub-B3D7B795-2013-2016.txt">txt</a>, <a
-                        href="Hugo-Roy-pub-B3D7B795-2013-2016.pgp"
-                        download>pgp</a>] Expires in 2016.</dd>
-                    <dd>
-                      <img alt="Key" class="icon" src="site/img/clef.png" />  <a href="http://gnupg.org/index.html">openPGP</a> <code>B8B7 8D13</code> [<a href="/hugoroy-public.asc">asc</a>] (please use the other key ↑)
-                    </dd>
-                    <dd>
-                      <img alt="Key" class="icon" src="site/img/clef.png" />  <a href="http://www.cypherpunks.ca/otr/">Off-The-Record</a> <!--code>EDE7399E 11771251 CCEEA383 54EA2EC3 C10B7437</code--><code>7FD2C2B9 FC1D0F5E 2F8B2A6C 99768A34 D8B99BE4</code> (pidgin-synclavier)
-                    </dd>
-                    <dd>
-                      <img alt="Key" class="icon" src="site/img/clef.png" />  <a href="http://www.cypherpunks.ca/otr/">Off-The-Record</a> <!--code>EDE7399E 11771251 CCEEA383 54EA2EC3 C10B7437</code--><code>6E8F6A34 72C9878A B9474A05 9828A6FB 003E4650</code> (pidgin-secure-laptop)
-                    </dd>
-                </dl>
-
-                <form action="http://pgp.cs.uu.nl/mk_path.cgi" class="form-inline" method="get">
-                    <fieldset>
-                        <legend>GnuPG's web of trust</legend>
-                        <span class="help-block">Check the existence of a path of trust between our GnuPG keys</span>
-                        <input name="FROM" placeholder="Your key ID" size="10" type="text" />
-                        <input name="TO" type="hidden" value="B8B78D13" />
-                        <button class="btn" name="PATHS" type="submit">Find Path</button>
-                    </fieldset>
-                </form>
+                    <code class="fingerprint">EBE6 F998 953C BD94 FFA4
+                        E671 8D02 2C99 <span class="key-id">B3D7 B795</span></code> 
+                    [<a href="Hugo-Roy-pub-B3D7B795-2013-2016.png">
+                        <span class="glyphicon glyphicon-qrcode"></span> png</a>, 
+                    <a href="Hugo-Roy-pub-B3D7B795-2013-2016.txt" rel="key"
+                         type="application/pgp-keys">txt</a>, 
+                    <a href="Hugo-Roy-pub-B3D7B795-2013-2016.pgp" rel="key"
+                         type="application/pgp-keys"
+                        download>pgp</a>] 
+                    Expires in 2016.
+                </dd>
+                <dd>
+                    <img alt="Key" class="icon" src="site/img/clef.png" />  
+                    <a href="http://gnupg.org/index.html">openPGP</a> 
+                    <code class="fingerprint">B4BA 15D0 EC84 7DE1 019E
+                        E0A7 53BE 7CFB <span class="key-id">B8B7 8D13</span></code> 
+                    [<a href="/hugoroy-public.asc" 
+                        rel="key" type="application/pgp-keys">asc</a>] 
+                    (please use the other key ↑)
+                </dd>
+                <dd>
+                    <img alt="Key" class="icon" src="site/img/clef.png" />
+                    <a href="http://www.cypherpunks.ca/otr/">Off-The-Record</a> 
+                    <code class="fingerprint">7FD2C2B9 FC1D0F5E 2F8B2A6C 99768A34
+                        D8B99BE4</code> 
+                    (pidgin-synclavier)
+                </dd>
+                <dd>
+                    <img alt="Key" class="icon" src="site/img/clef.png" />  
+                    <a href="http://www.cypherpunks.ca/otr/">Off-The-Record</a> 
+                    <!--code>EDE7399E 11771251 CCEEA383 54EA2EC3 C10B7437</code-->
+                    <code class="fingerprint">6E8F6A34 72C9878A B9474A05 9828A6FB
+                        003E4650</code> 
+                    (pidgin-secure-laptop)
+                </dd>
+            </dl>
+            <form action="http://pgp.cs.uu.nl/mk_path.cgi" class="form-inline" method="get">
+                <fieldset class="form-group">
+                    <legend>GnuPG's web of trust</legend>
+                    <span class="help-block">Check the existence of a path of
+                        trust between our GnuPG keys</span>
+                    <input name="FROM" placeholder="Your key ID" size="20"
+                        type="text" class="form-control" />
+                    <input name="TO" type="hidden" value="B8B78D13" />
+                    <button class="btn" name="PATHS" type="submit">Find Path</button>
+                </fieldset>
+            </form>
+            <p><a href="http://pgp.cs.uu.nl/stats/B8B78D13.html">Key statistics</a></p>
             </section>
             <section id="pinboard">
-                <p class="pull-right subscribers"><a href="//feeds.pinboard.in/rss/u:hugoroy/" class="btn btn-warning btn-mini">Subscribe to feed [rss]</a></p>
-                <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=hugoroy&amp;count=30"></script>
-                <p><a href="//pinboard.in/u:hugoroy"><span class="glyphicon glyphicon-bookmark"></span> More bookmarks</a></p>
+            <p class="pull-right subscribers"><a
+                href="//feeds.pinboard.in/rss/u:hugoroy/" class="btn
+                btn-warning btn-mini">Subscribe to feed [rss]</a></p>
+            <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=hugoroy&amp;count=11&amp;tag=lang%3Aen"></script>
+            <p><a href="//pinboard.in/u:hugoroy"><span class="glyphicon
+                    glyphicon-bookmark"></span> More bookmarks</a></p>
             </section>
         </article>
         <aside>
@@ -319,7 +351,8 @@
         </aside>
         <footer id="bottom">
         <p id="legal" role="contentinfo">Except otherwise mentioned, the
-        content of this page is published by <a href="/" rel="author">Hugo Roy</a> under a
+        content of this page is published by <a href="/" rel="author">Hugo Roy</a> 
+        under a
         <a rel="license"
             href="//creativecommons.org/licenses/by-sa/3.0/">Creative Commons
             license allowing sharing and modifications under some

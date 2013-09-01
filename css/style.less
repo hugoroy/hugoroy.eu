@@ -1,12 +1,47 @@
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Roboto", Roboto, "Open Sans","OpenSans", "DejaVu Sans", sans-serif;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga", "calt";
+    -webkit-font-feature-settings: "liga", "calt";
+    -ms-font-feature-settings: "liga";
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
 }
 
+@media (min-width: 1500px) {
+    body {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+}
+
+
 h1, h2, h3, .h1, .h2, .h3 {
-    font-family: "Source Sans Pro";
+    /*font-family: "Source Sans Pro";*/
     font-weight: 500;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
     word-spacing: 0.1em;
+}
+
+body.roman {
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga", "calt";
+    -webkit-font-feature-settings: "liga", "calt";
+    -ms-font-feature-settings: "liga";
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+
+    article {
+        font-size: 1.5em;
+        font-family: "EB Garamond", "Garamond Premier Pro", "Garamond", Georgia, serif;
+        p, h1, h2, h3, .h1, .h2, .h3 {
+            font-family: "EB Garamond", "Garamond Premier Pro", "Garamond", Georgia, serif;
+            max-width: 666px;
+        }
+        p {
+        font-size: 1.5em;
+        }
+    }
 }
 
 pre, code {
@@ -48,12 +83,12 @@ img {
 #top .link-home span, #ma-tete {
     border-width: 1px;
     border-style: solid;
-    border-radius: 140px;
+    border-radius: 50%;
 }
 
 #ma-tete {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     box-shadow: 0 0 0.5em rgba(0,0,0,0.3);
 }
 
@@ -61,6 +96,9 @@ img {
     font-size: 0.9em;
     padding: 0.5em;
 }
+
+body.lang-en span.hide.lang-en { display: inline !important; }
+body.lang-fr span.hide.lang-fr { display: inline !important; }
 
 #bottom {
     margin: 4em 0 0 0;
@@ -83,7 +121,6 @@ aside {
 @media (min-width: 700px) {
     aside {
         width: 180px;
-        left: 0;
         float: left;
     }
     article {
@@ -108,6 +145,15 @@ aside {
     }
 }
 
+@media (min-width: 1500px) {
+    aside, #search {
+        width: 320px;
+    }
+    article, #bottom {
+        margin-left: 440px;
+    }
+}
+
 #menu {
     margin: 2em 0;
     border-right: 1px solid rgba(0,0,0,0.1);
@@ -121,7 +167,7 @@ aside {
 
 .home #menu .nav li {
     width: 19%;
-    min-width: 8em;
+    min-width: 9em;
 }
 
 #menu .nav a {
@@ -133,7 +179,7 @@ aside {
 }
 
 #menu .nav .nav li {
-    padding-left: 2em;
+    background-color: rgba(100,100,100,0.05);
 }
 
 #menu .nav .nav li a {
@@ -161,43 +207,63 @@ aside {
     }
 }
 
+
+
+
+
 article {
     margin-bottom: 10em;
-}
 
+    section {
+        margin-top: 2em;
+        margin-bottom: 4em;
+        padding:2em;
+    }
+    section:first-child { margin-top: 0em; padding-top: 1em; }
+    p, h1, h2, h3, h4, h5, h6 {
+        /*max-width: 39em;*/
+        max-width: 666px;
+    }
+    p {
+        margin: 0px 0px 1.1em;
+        font-size: 1.11em;
+        line-height: 140%;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        -o-hyphens: auto;
+        hyphens: auto;
+    }
+    dt {
+        margin-top: 1em;
+    }
+    h1, .h1, h2, .h2, h3, .h3 {
+        font-family: "EB Garamond", "Garamond Premier Pro", Garamond, Georgia, serif;
+    }
+    h1, .h1 {font-size: 2.8em; }
+    h2, .h2 {font-size: 2.4em; }
+    h3, .h3 {font-size: 1.8em; }
+    figure {
+        margin: 2em 0;
+    }
+    figcaption {
+        padding: 7px;
+        font-weight: 300;
+    }
+    .footnotes {
+        ol li p a:last-child {
+            margin-left:0.5em;
+        }
+    }
+}
 article:last-child {
     margin-bottom: 0;
-}
-
-article section {
-    margin-top: 2em;
-    margin-bottom: 4em;
-    padding:2em;
-}
-
-article section:first-child { margin-top: 0em; padding-top: 1em; }
-
-article p {
-    margin: 0px 0px 1.1em;
-    font-size: 14.2px;
-    line-height: 140%;
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    -o-hyphens: auto;
-    hyphens: auto;
-}
-
-article {
-    p, h1, h2, h3, h4, h5, h6 {
-        max-width: 39em;
-    }
 }
 
 #wordpress {
     article { 
         header, footer {
-            max-width: 44em;
+            max-width: 666px;
             padding: 0 2em;
         }
         section {
@@ -235,6 +301,8 @@ footer {
     padding: 4em 2em;
 }
 
+.home article section:first-child { margin-top: 0em; padding-top: 1em; }
+
 #index-html .link-home {
     display: none;
 }
@@ -256,9 +324,6 @@ footer {
     }
 }
 
-#contact .alert-block {
-    max-width: 580px;
-}
 
 /*Blog index.html*/
 
@@ -305,7 +370,7 @@ ul.index .authors .avatar {
 
 ul.index .link-out {
     color: #666;
-    font-size: 80%;
+    font-size: 0.8em;
     margin:0 .4em;
 }
 
@@ -319,16 +384,41 @@ ul.index .link-out {
     margin-bottom: 0.5em;
 }
 
-/*pinboard*/
-
-#pinboard a.pin-tag {
-    color: rgb(102,102,102);
-    font-size: 80%;
-    margin: 0px 0.2em;
+@media (max-width: 700px) {
+    .subscribers.pull-right {
+        float: none !important;
+    }
 }
 
+/*pinboard*/
+
+#pinboard {
+    .pin-item {
+        font-size: 0.9em;
+    }
+    a.pin-tag {
+        color: rgb(102,102,102);
+        font-size: 0.9em;
+        margin: 0 0.4em 0 0;
+    }
+    a.pin-tag:before {
+        content: "#";
+    }
+}
+
+/* blog */
+
+.blog {
+    .p-name, .p-author {
+        display: block;
+    }
+    .hcard {
+        display: none;
+    }
+}
 
 .zzz,.zzz a{float:right;font-size:.001px;color:transparent;display:inline-block;width:0px;text-decoration:none;}
 
 @import "fonts.less";
 @import "bootstrap-glyphicons.less";
+
