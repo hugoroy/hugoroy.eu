@@ -1,222 +1,225 @@
-body,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Roboto",Roboto,"Open Sans","OpenSans","DejaVu Sans",sans-serif;text-rendering:optimizeLegibility;-moz-font-feature-settings:"liga","calt";-webkit-font-feature-settings:"liga","calt";-ms-font-feature-settings:"liga";-o-font-feature-settings:"liga";font-feature-settings:"liga";}
-@media (min-width:1500px){body{max-width:1500px;margin:0 auto;}}h1,h2,h3,.h1,.h2,.h3{font-weight:500;letter-spacing:-0.02em;word-spacing:0.1em;}
-body.roman{text-rendering:optimizeLegibility;-moz-font-feature-settings:"liga","calt";-webkit-font-feature-settings:"liga","calt";-ms-font-feature-settings:"liga";-o-font-feature-settings:"liga";font-feature-settings:"liga";}body.roman article{font-size:1.5em;font-family:"EB Garamond","Garamond Premier Pro","Garamond",Georgia,serif;}body.roman article p,body.roman article h1,body.roman article h2,body.roman article h3,body.roman article .h1,body.roman article .h2,body.roman article .h3{font-family:"EB Garamond","Garamond Premier Pro","Garamond",Georgia,serif;max-width:666px;}
-body.roman article p{font-size:1.5em;}
-pre,code{font-family:"Inconsolata",Monaco,Menlo,Consolas,"Courier New",monospace;}
-img{max-width:100%;}
-.collapser{cursor:pointer;opacity:0.5;}
-#top{min-height:55px;padding:2px 15px;margin-bottom:2em;}
-#top .link-home{float:left;margin-right:2em;}
-#top .link-home span{position:absolute;display:block;width:48px;height:32px;text-align:center;padding-top:16px;font-size:32px;visibility:hidden;color:transparent;}
-#top .link-home span,#ma-tete{border-width:1px;border-style:solid;border-radius:50%;}
-#ma-tete{width:50px;height:50px;box-shadow:0 0 0.5em rgba(0, 0, 0, 0.3);}
-#lang-select{font-size:0.9em;padding:0.5em;}
-body.lang-en span.hide.lang-en{display:inline !important;}
-body.lang-fr span.hide.lang-fr{display:inline !important;}
-#bottom{margin:4em 0 0 0;clear:both;min-height:3.8em;}
-#search{z-index:30;}
-#search #duckgoforit .glyphicon-search{opacity:0.5;}
-aside{font-size:0.9em;}
-@media (min-width:700px){aside{width:180px;float:left;} article{margin:0 0 0 220px;} #bottom{margin-left:220px;} #search{position:fixed;bottom:20px;width:180px;}}@media (min-width:1300px){aside,#search{width:220px;} article,#bottom{margin-left:320px;}}@media (min-width:1500px){aside,#search{width:320px;} article,#bottom{margin-left:440px;}}#menu{margin:2em 0;border-right:1px solid rgba(0, 0, 0, 0.1);}
-#menu .nav li{display:inline-block;width:9em;text-align:center;}
-.home #menu .nav li{width:19%;min-width:9em;}
-#menu .nav a{border-right:3px solid rgba(255, 255, 255, 0);}
-.js #menu .nav .nav{display:none;}
-#menu .nav .nav li{background-color:rgba(100, 100, 100, 0.05);}
-#menu .nav .nav li a{padding:5px 15px;font-size:0.9em;}
-@media (min-width:700px){#menu{position:fixed;top:160px;float:none;clear:both;} #menu .nav li,.home #menu .nav li{text-align:right;display:block;width:100%;} #menu .nav>.active>a{border-right:3px solid #d9261c;} #menu .nav>.active>.nav{display:block;}}article{margin-bottom:10em;}article section{margin-top:2em;margin-bottom:4em;padding:2em;}
-article section:first-child{margin-top:0em;padding-top:1em;}
-article p,article h1,article h2,article h3,article h4,article h5,article h6{max-width:666px;}
-article p{margin:0px 0px 1.1em;font-size:1.11em;line-height:140%;-moz-hyphens:auto;-webkit-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;hyphens:auto;}
-article dt{margin-top:1em;}
-article h1,article .h1,article h2,article .h2,article h3,article .h3{font-family:"EB Garamond","Garamond Premier Pro",Garamond,Georgia,serif;}
-article h1,article .h1{font-size:2.8em;}
-article h2,article .h2{font-size:2.4em;}
-article h3,article .h3{font-size:1.8em;}
-article figure{margin:2em 0;}
-article figcaption{padding:7px;font-weight:300;}
-article .footnotes ol li p a:last-child{margin-left:0.5em;}
-article:last-child{margin-bottom:0;}
-#wordpress article header,#wordpress article footer{max-width:666px;padding:0 2em;}
-#wordpress article section{margin-bottom:0;padding:0 2em;}
-#wordpress article footer{border-top:1px solid #eeeeee;margin:3em 2em;padding-top:2em;text-align:center;}
-#wordpress .page-title{margin-left:220px;}
-@media (min-width:700px){article aside{float:right;}}footer{font-size:0.9em;}
-.home article section{margin-top:2em;margin-bottom:10em;padding:4em 2em;}
-.home article section:first-child{margin-top:0em;padding-top:1em;}
-#index-html .link-home{display:none;}
-#index-html #portrait img{width:148px;margin-top:-50px;}
-@media (min-width:700px){#index-html #portrait{} #index-html #portrait img{position:relative;width:100%;}}
-ul.index{list-style:none;margin-left:0;padding-left:0;}
-ul.index time{margin-left:-2em;margin-right:2em;padding-left:0.5em;text-align:right;color:#666;display:inline-block;width:7.5em;}
-@media (max-width:960px){ul.index time{display:block;text-align:left;margin-top:0.6em;}}@media (min-width:960px){ul.index li p{margin-left:120px;padding-left:0.25em;}}ul.index .authors .avatar{height:1.1em;margin-left:.5em;box-shadow:0 0 0 transparent;}
-ul.index .link-out{color:#666;font-size:0.8em;margin:0 .4em;}
-.no-js #talks ul.index li p.collapse{display:block;height:auto;}
-.subscribers .btn{display:block;margin-bottom:0.5em;}
-@media (max-width:700px){.subscribers.pull-right{float:none !important;}}#pinboard .pin-item{font-size:0.9em;}
-#pinboard a.pin-tag{color:#666666;font-size:0.9em;margin:0 0.4em 0 0;}
-#pinboard a.pin-tag:before{content:"#";}
-.blog .p-name,.blog .p-author{display:block;}
-.blog .hcard{display:none;}
-.zzz,.zzz a{float:right;font-size:.001px;color:transparent;display:inline-block;width:0px;text-decoration:none;}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'),local('Roboto-Thin'),url(../fonts/roboto-thin.woff) format('woff');}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local('Roboto-Light'),url(../fonts/roboto-light.woff) format('woff');}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(../fonts/roboto-regular.woff) format('woff');}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(../fonts/roboto-medium.woff) format('woff');}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(../fonts/roboto-bold.woff) format('woff');}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;src:local('Roboto Black'),local('Roboto-Black'),url(../fonts/roboto-black.woff) format('woff');}@font-face{font-family:'Roboto';font-style:italic;font-weight:100;src:local('Roboto Thin Italic'),local('Roboto-ThinItalic'),url(../fonts/roboto-thin-italic.woff) format('woff');}@font-face{font-family:'Roboto';font-style:italic;font-weight:300;src:local('Roboto Light Italic'),local('Roboto-LightItalic'),url(../fonts/roboto-light-italic.woff) format('woff');}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(../fonts/roboto-italic.woff) format('woff');}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(../fonts/roboto-medium-italic.woff) format('woff');}@font-face{font-family:'Roboto';font-style:italic;font-weight:700;src:local('Roboto Bold Italic'),local('Roboto-BoldItalic'),url(../fonts/roboto-bold-italic.woff) format('woff');}@font-face{font-family:'Roboto';font-style:italic;font-weight:900;src:local('Roboto Black Italic'),local('Roboto-BlackItalic'),url(../fonts/roboto-black-italic.woff) format('woff');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:local('Source Sans Pro Light'),local('SourceSansPro-Light'),url(../fonts/SourceSansPro-Light.otf) format('otf');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local('Source Sans Pro Regular'),local('SourceSansPro-Regular'),url(../fonts/SourceSansPro-Regular.otf) format('otf');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:500;src:local('Source Sans Pro Semibold'),local('SourceSansPro-Semibold'),url(../fonts/SourceSansPro-Semibold.otf) format('otf');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local('Source Sans Pro Bold'),local('SourceSansPro-Bold'),url(../fonts/SourceSansPro-Bold.otf) format('otf');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;src:local('Source Sans Pro Black'),local('SourceSansPro-Black'),url(../fonts/SourceSansPro-Black.otf) format('otf');}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:300;src:local('Source Sans Pro Light Italic'),local('SourceSansPro-LightItalic'),url(../fonts/SourceSansPro-LightIt.otf) format('otf');}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local('Source Sans Pro Italic'),local('SourceSansPro-Italic'),url(../fonts/SourceSansPro-It.otf) format('otf');}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:500;src:local('Source Sans Pro Semibold Italic'),local('SourceSansPro-SemiboldItalic'),url(../fonts/SourceSansPro-SemiboldIt.otf) format('otf');}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local('Source Sans Pro Bold Italic'),local('SourceSansPro-BoldItalic'),url(../fonts/SourceSansPro-BoldIt.otf) format('otf');}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:900;src:local('Source Sans Pro Black Italic'),local('SourceSansPro-BlackItalic'),url(../fonts/SourceSansPro-BlackIt.otf) format('otf');}@font-face{font-family:"EB Garamond";src:url(../fonts/EBGaramond12-Regular.eot );src:local('EB Garamond 12 Regular'),local('EBGaramond12-Regular'),url('../fonts/EBGaramond12-Regular.ttf') format('truetype'),url('../fonts/EBGaramond12-Regular.woff') format('woff');}@font-face{font-family:"EB Garamond SC";font-variant:small-caps;src:url(../fonts/EBGaramond12-SC.eot );src:local('EB Garamond 12 SC Regular'),local('EBGaramond12-SC'),url('../fonts/EBGaramond12-SC.ttf') format('truetype'),url('../fonts/EBGaramond12-SC.woff') format('woff');}@font-face{font-family:"EB Garamond";font-style:italic;src:url(../fonts/EBGaramond12-Italic.eot );src:local('EB Garamond 12 Italic'),local('EBGaramond12-Italic'),url('../fonts/EBGaramond12-Italic.ttf') format('truetype'),url('../fonts/EBGaramond12-Italic.woff') format('woff');}@font-face{font-family:"EB Garamond Initials";src:url(../fonts/EBGaramond-Initials.eot );src:local('EB Garamond Initials Regular'),local('EBGaramond-Initials'),url('../fonts/EBGaramond-Initials.ttf') format('truetype'),url('../fonts/EBGaramond-Initials.woff') format('woff');}@font-face{font-family:"EBG08-Re";src:url(fonts/EBGaramond08-Regular.eot );src:url('fonts/EBGaramond08-Regular.ttf') format('truetype'),url('fonts/EBGaramond08-Regular.woff') format('woff');}@font-face{font-family:"EBG08-SC";src:url(fonts/EBGaramond08-SC.eot );src:url('fonts/EBGaramond08-SC.ttf') format('truetype'),url('fonts/EBGaramond08-SC.woff') format('woff');}@font-face{font-family:"EBG08-It";src:url(fonts/EBGaramond08-Italic.eot );src:url('fonts/EBGaramond08-Italic.ttf') format('truetype'),url('fonts/EBGaramond08-Italic.woff') format('woff');}@font-face{font-family:'Glyphicons Halflings';src:url('../fonts/glyphiconshalflings-regular.eot');src:url('../fonts/glyphiconshalflings-regular.eot?#iefix') format('embedded-opentype'),url('../fonts/glyphiconshalflings-regular.woff') format('woff'),url('../fonts/glyphiconshalflings-regular.ttf') format('truetype'),url('../fonts/glyphiconshalflings-regular.svg#glyphicons_halflingsregular') format('svg');}.glyphicon:before{font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;}
-.glyphicon-glass:before{content:"\e001";}
-.glyphicon-music:before{content:"\e002";}
-.glyphicon-search:before{content:"\e003";}
-.glyphicon-envelope:before{content:"\2709";}
-.glyphicon-heart:before{content:"\e005";}
-.glyphicon-star:before{content:"\e006";}
-.glyphicon-star-empty:before{content:"\e007";}
-.glyphicon-user:before{content:"\e008";}
-.glyphicon-film:before{content:"\e009";}
-.glyphicon-th-large:before{content:"\e010";}
-.glyphicon-th:before{content:"\e011";}
-.glyphicon-th-list:before{content:"\e012";}
-.glyphicon-ok:before{content:"\e013";}
-.glyphicon-remove:before{content:"\e014";}
-.glyphicon-zoom-in:before{content:"\e015";}
-.glyphicon-zoom-out:before{content:"\e016";}
-.glyphicon-off:before{content:"\e017";}
-.glyphicon-signal:before{content:"\e018";}
-.glyphicon-cog:before{content:"\e019";}
-.glyphicon-trash:before{content:"\e020";}
-.glyphicon-home:before{content:"\e021";}
-.glyphicon-file:before{content:"\e022";}
-.glyphicon-time:before{content:"\e023";}
-.glyphicon-road:before{content:"\e024";}
-.glyphicon-download-alt:before{content:"\e025";}
-.glyphicon-download:before{content:"\e026";}
-.glyphicon-upload:before{content:"\e027";}
-.glyphicon-inbox:before{content:"\e028";}
-.glyphicon-play-circle:before{content:"\e029";}
-.glyphicon-repeat:before{content:"\e030";}
-.glyphicon-refresh:before{content:"\e031";}
-.glyphicon-list-alt:before{content:"\e032";}
-.glyphicon-lock:before{content:"\e033";}
-.glyphicon-flag:before{content:"\e034";}
-.glyphicon-headphones:before{content:"\e035";}
-.glyphicon-volume-off:before{content:"\e036";}
-.glyphicon-volume-down:before{content:"\e037";}
-.glyphicon-volume-up:before{content:"\e038";}
-.glyphicon-qrcode:before{content:"\e039";}
-.glyphicon-barcode:before{content:"\e040";}
-.glyphicon-tag:before{content:"\e041";}
-.glyphicon-tags:before{content:"\e042";}
-.glyphicon-book:before{content:"\e043";}
-.glyphicon-bookmark:before{content:"\e044";}
-.glyphicon-print:before{content:"\e045";}
-.glyphicon-camera:before{content:"\e046";}
-.glyphicon-font:before{content:"\e047";}
-.glyphicon-bold:before{content:"\e048";}
-.glyphicon-italic:before{content:"\e049";}
-.glyphicon-text-height:before{content:"\e050";}
-.glyphicon-text-width:before{content:"\e051";}
-.glyphicon-align-left:before{content:"\e052";}
-.glyphicon-align-center:before{content:"\e053";}
-.glyphicon-align-right:before{content:"\e054";}
-.glyphicon-align-justify:before{content:"\e055";}
-.glyphicon-list:before{content:"\e056";}
-.glyphicon-indent-left:before{content:"\e057";}
-.glyphicon-indent-right:before{content:"\e058";}
-.glyphicon-facetime-video:before{content:"\e059";}
-.glyphicon-picture:before{content:"\e060";}
-.glyphicon-pencil:before{content:"\270f";}
-.glyphicon-map-marker:before{content:"\e062";}
-.glyphicon-adjust:before{content:"\e063";}
-.glyphicon-tint:before{content:"\e064";}
-.glyphicon-edit:before{content:"\e065";}
-.glyphicon-share:before{content:"\e066";}
-.glyphicon-check:before{content:"\e067";}
-.glyphicon-move:before{content:"\e068";}
-.glyphicon-step-backward:before{content:"\e069";}
-.glyphicon-fast-backward:before{content:"\e070";}
-.glyphicon-backward:before{content:"\e071";}
-.glyphicon-play:before{content:"\e072";}
-.glyphicon-pause:before{content:"\e073";}
-.glyphicon-stop:before{content:"\e074";}
-.glyphicon-forward:before{content:"\e075";}
-.glyphicon-fast-forward:before{content:"\e076";}
-.glyphicon-step-forward:before{content:"\e077";}
-.glyphicon-eject:before{content:"\e078";}
-.glyphicon-chevron-left:before{content:"\e079";}
-.glyphicon-chevron-right:before{content:"\e080";}
-.glyphicon-plus-sign:before{content:"\e081";}
-.glyphicon-minus-sign:before{content:"\e082";}
-.glyphicon-remove-sign:before{content:"\e083";}
-.glyphicon-ok-sign:before{content:"\e084";}
-.glyphicon-question-sign:before{content:"\e085";}
-.glyphicon-info-sign:before{content:"\e086";}
-.glyphicon-screenshot:before{content:"\e087";}
-.glyphicon-remove-circle:before{content:"\e088";}
-.glyphicon-ok-circle:before{content:"\e089";}
-.glyphicon-ban-circle:before{content:"\e090";}
-.glyphicon-arrow-left:before{content:"\e091";}
-.glyphicon-arrow-right:before{content:"\e092";}
-.glyphicon-arrow-up:before{content:"\e093";}
-.glyphicon-arrow-down:before{content:"\e094";}
-.glyphicon-share-alt:before{content:"\e095";}
-.glyphicon-resize-full:before{content:"\e096";}
-.glyphicon-resize-small:before{content:"\e097";}
-.glyphicon-plus:before{content:"\002b";}
-.glyphicon-minus:before{content:"\2212";}
-.glyphicon-asterisk:before{content:"\002a";}
-.glyphicon-exclamation-sign:before{content:"\e101";}
-.glyphicon-gift:before{content:"\e102";}
-.glyphicon-leaf:before{content:"\e103";}
-.glyphicon-fire:before{content:"\e104";}
-.glyphicon-eye-open:before{content:"\e105";}
-.glyphicon-eye-close:before{content:"\e106";}
-.glyphicon-warning-sign:before{content:"\e107";}
-.glyphicon-plane:before{content:"\e108";}
-.glyphicon-calendar:before{content:"\e109";}
-.glyphicon-random:before{content:"\e110";}
-.glyphicon-comment:before{content:"\e111";}
-.glyphicon-magnet:before{content:"\e112";}
-.glyphicon-chevron-up:before{content:"\e113";}
-.glyphicon-chevron-down:before{content:"\e114";}
-.glyphicon-retweet:before{content:"\e115";}
-.glyphicon-shopping-cart:before{content:"\e116";}
-.glyphicon-folder-close:before{content:"\e117";}
-.glyphicon-folder-open:before{content:"\e118";}
-.glyphicon-resize-vertical:before{content:"\e119";}
-.glyphicon-resize-horizontal:before{content:"\e120";}
-.glyphicon-hdd:before{content:"\e121";}
-.glyphicon-bullhorn:before{content:"\e122";}
-.glyphicon-bell:before{content:"\e123";}
-.glyphicon-certificate:before{content:"\e124";}
-.glyphicon-thumbs-up:before{content:"\e125";}
-.glyphicon-thumbs-down:before{content:"\e126";}
-.glyphicon-hand-right:before{content:"\e127";}
-.glyphicon-hand-left:before{content:"\e128";}
-.glyphicon-hand-up:before{content:"\e129";}
-.glyphicon-hand-down:before{content:"\e130";}
-.glyphicon-circle-arrow-right:before{content:"\e131";}
-.glyphicon-circle-arrow-left:before{content:"\e132";}
-.glyphicon-circle-arrow-up:before{content:"\e133";}
-.glyphicon-circle-arrow-down:before{content:"\e134";}
-.glyphicon-globe:before{content:"\e135";}
-.glyphicon-wrench:before{content:"\e136";}
-.glyphicon-tasks:before{content:"\e137";}
-.glyphicon-filter:before{content:"\e138";}
-.glyphicon-briefcase:before{content:"\e139";}
-.glyphicon-fullscreen:before{content:"\e140";}
-.glyphicon-dashboard:before{content:"\e141";}
-.glyphicon-paperclip:before{content:"\e142";}
-.glyphicon-heart-empty:before{content:"\e143";}
-.glyphicon-link:before{content:"\e144";}
-.glyphicon-phone:before{content:"\e145";}
-.glyphicon-pushpin:before{content:"\e146";}
-.glyphicon-euro:before{content:"\20ac";}
-.glyphicon-usd:before{content:"\e148";}
-.glyphicon-gbp:before{content:"\e149";}
-.glyphicon-sort:before{content:"\e150";}
-.glyphicon-sort-by-alphabet:before{content:"\e151";}
-.glyphicon-sort-by-alphabet-alt:before{content:"\e152";}
-.glyphicon-sort-by-order:before{content:"\e153";}
-.glyphicon-sort-by-order-alt:before{content:"\e154";}
-.glyphicon-sort-by-attributes:before{content:"\e155";}
-.glyphicon-sort-by-attributes-alt:before{content:"\e156";}
-.glyphicon-unchecked:before{content:"\e157";}
-.glyphicon-expand:before{content:"\e158";}
-.glyphicon-collapse:before{content:"\e159";}
-.glyphicon-collapse-top:before{content:"\e160";}
+body,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Roboto",Roboto,"Open Sans","OpenSans","DejaVu Sans",sans-serif;text-rendering:optimizeLegibility;-moz-font-feature-settings:"liga","calt";-webkit-font-feature-settings:"liga","calt";-ms-font-feature-settings:"liga";-o-font-feature-settings:"liga";font-feature-settings:"liga"}
+@media (min-width:1500px){body{max-width:1500px;margin:0 auto}}h1,h2,h3,.h1,.h2,.h3{font-weight:500;letter-spacing:-0.02em;word-spacing:.1em}
+body.roman{text-rendering:optimizeLegibility;-moz-font-feature-settings:"liga","calt";-webkit-font-feature-settings:"liga","calt";-ms-font-feature-settings:"liga";-o-font-feature-settings:"liga";font-feature-settings:"liga"}body.roman article{font-size:1.5em;font-family:"EB Garamond","Garamond Premier Pro","Garamond",Georgia,serif}body.roman article p,body.roman article h1,body.roman article h2,body.roman article h3,body.roman article .h1,body.roman article .h2,body.roman article .h3{font-family:"EB Garamond","Garamond Premier Pro","Garamond",Georgia,serif;max-width:666px}
+body.roman article p{font-size:1.5em}
+pre,code{font-family:"Inconsolata",Monaco,Menlo,Consolas,"Courier New",monospace}
+img{max-width:100%}
+.collapser{cursor:pointer;opacity:.5}
+#top{min-height:55px;padding:2px 15px;margin-bottom:2em}
+#top .link-home{float:left;margin-right:2em}
+#top .link-home span{position:absolute;display:block;width:48px;height:32px;text-align:center;padding-top:16px;font-size:32px;visibility:hidden;color:transparent}
+#top .link-home span,#ma-tete{border-width:1px;border-style:solid;border-radius:50%}
+#ma-tete{width:50px;height:50px;box-shadow:0 0 .5em rgba(0,0,0,0.3)}
+#lang-select{font-size:.9em;padding:.5em}
+body.lang-en span.hide.lang-en{display:inline !important}
+body.lang-fr span.hide.lang-fr{display:inline !important}
+#bottom{margin:4em 0 0 0;clear:both;min-height:3.8em}
+#search{z-index:30}
+#search #duckgoforit .glyphicon-search{opacity:.5}
+aside{font-size:.9em}
+@media (min-width:700px){aside{width:180px;float:left} article{margin:0 0 0 220px} #bottom{margin-left:220px} #search{position:fixed;bottom:20px;width:180px}}@media (min-width:1300px){aside,#search{width:220px} article,#bottom{margin-left:320px}}@media (min-width:1500px){aside,#search{width:320px} article,#bottom{margin-left:440px}}#menu{margin:2em 0;border-right:1px solid rgba(0,0,0,0.1)}
+#menu .nav li{display:inline-block;width:9em;text-align:center}
+.home #menu .nav li{width:19%;min-width:9em}
+#menu .nav a{border-right:3px solid rgba(255,255,255,0)}
+.js #menu .nav .nav{display:none}
+#menu .nav .nav li{background-color:rgba(100,100,100,0.05)}
+#menu .nav .nav li a{padding:5px 15px;font-size:.9em}
+@media (min-width:700px){#menu{position:fixed;top:160px;float:none;clear:both} #menu .nav li,.home #menu .nav li{text-align:right;display:block;width:100%} #menu .nav>.active>a{border-right:3px solid #d9261c} #menu .nav>.active>.nav{display:block}}article{margin-bottom:10em}article section{margin-top:2em;margin-bottom:4em;padding:2em}
+article section:first-child{margin-top:0;padding-top:1em}
+article p,article h1,article h2,article h3,article h4,article h5,article h6{max-width:666px}
+article p{margin:0 0 1.1em;font-size:1.11em;line-height:140%;-moz-hyphens:auto;-webkit-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;hyphens:auto}
+article dt{margin-top:1em}
+article h1,article .h1,article h2,article .h2,article h3,article .h3{font-family:"EB Garamond","Garamond Premier Pro",Garamond,Georgia,serif}
+article h1,article .h1{font-size:2.8em}
+article h2,article .h2{font-size:2.4em}
+article h3,article .h3{font-size:1.8em}
+article figure{margin:2em 0}
+article figcaption{padding:7px;font-weight:300}
+article .footnotes ol li p a:last-child{margin-left:.5em}
+article:last-child{margin-bottom:0}
+#wordpress article header,#wordpress article footer{max-width:666px;padding:0 2em}
+#wordpress article section{margin-bottom:0;padding:0 2em}
+#wordpress article footer{border-top:1px solid #eee;margin:3em 2em;padding-top:2em;text-align:center}
+#wordpress .page-title{margin-left:220px}
+@media (min-width:700px){article aside{float:right}}footer{font-size:.9em}
+.feed-link{font-variant:small-caps}
+.feed-link:before{content:"["}
+.feed-link:after{content:"]"}
+.home article section{margin-top:2em;margin-bottom:10em;padding:4em 2em}
+.home article section:first-child{margin-top:0;padding-top:1em}
+#index-html .link-home{display:none}
+#index-html #portrait img{width:148px;margin-top:-50px}
+@media (min-width:700px){#index-html #portrait{} #index-html #portrait img{position:relative;width:100%}}
+ul.index{list-style:none;margin-left:0;padding-left:0}
+ul.index time{margin-left:-2em;margin-right:2em;padding-left:.5em;text-align:right;color:#666;display:inline-block;width:7.5em}
+@media (max-width:960px){ul.index time{display:block;text-align:left;margin-top:.6em}}@media (min-width:960px){ul.index li p{margin-left:120px;padding-left:.25em}}ul.index .authors .avatar{height:1.1em;margin-left:.5em;box-shadow:0 0 0 transparent}
+ul.index .link-out{color:#666;font-size:.8em;margin:0 .4em}
+.no-js #talks ul.index li p.collapse{display:block;height:auto}
+.subscribers .btn{display:block;margin-bottom:.5em}
+@media (max-width:700px){.subscribers.pull-right{float:none !important}}#pinboard .pin-item{font-size:.9em}
+#pinboard a.pin-tag{color:#666;font-size:.9em;margin:0 .4em 0 0}
+#pinboard a.pin-tag:before{content:"#"}
+.blog .p-name,.blog .p-author{display:block}
+.blog .hcard{display:none}
+.zzz,.zzz a{float:right;font-size:.001px;color:transparent;display:inline-block;width:0;text-decoration:none}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'),local('Roboto-Thin'),url(../fonts/roboto-thin.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local('Roboto-Light'),url(../fonts/roboto-light.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(../fonts/roboto-regular.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(../fonts/roboto-medium.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(../fonts/roboto-bold.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;src:local('Roboto Black'),local('Roboto-Black'),url(../fonts/roboto-black.woff) format('woff')}@font-face{font-family:'Roboto';font-style:italic;font-weight:100;src:local('Roboto Thin Italic'),local('Roboto-ThinItalic'),url(../fonts/roboto-thin-italic.woff) format('woff')}@font-face{font-family:'Roboto';font-style:italic;font-weight:300;src:local('Roboto Light Italic'),local('Roboto-LightItalic'),url(../fonts/roboto-light-italic.woff) format('woff')}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(../fonts/roboto-italic.woff) format('woff')}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(../fonts/roboto-medium-italic.woff) format('woff')}@font-face{font-family:'Roboto';font-style:italic;font-weight:700;src:local('Roboto Bold Italic'),local('Roboto-BoldItalic'),url(../fonts/roboto-bold-italic.woff) format('woff')}@font-face{font-family:'Roboto';font-style:italic;font-weight:900;src:local('Roboto Black Italic'),local('Roboto-BlackItalic'),url(../fonts/roboto-black-italic.woff) format('woff')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:local('Source Sans Pro Light'),local('SourceSansPro-Light'),url(../fonts/SourceSansPro-Light.otf) format('otf')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local('Source Sans Pro Regular'),local('SourceSansPro-Regular'),url(../fonts/SourceSansPro-Regular.otf) format('otf')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:500;src:local('Source Sans Pro Semibold'),local('SourceSansPro-Semibold'),url(../fonts/SourceSansPro-Semibold.otf) format('otf')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local('Source Sans Pro Bold'),local('SourceSansPro-Bold'),url(../fonts/SourceSansPro-Bold.otf) format('otf')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;src:local('Source Sans Pro Black'),local('SourceSansPro-Black'),url(../fonts/SourceSansPro-Black.otf) format('otf')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:300;src:local('Source Sans Pro Light Italic'),local('SourceSansPro-LightItalic'),url(../fonts/SourceSansPro-LightIt.otf) format('otf')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local('Source Sans Pro Italic'),local('SourceSansPro-Italic'),url(../fonts/SourceSansPro-It.otf) format('otf')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:500;src:local('Source Sans Pro Semibold Italic'),local('SourceSansPro-SemiboldItalic'),url(../fonts/SourceSansPro-SemiboldIt.otf) format('otf')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:700;src:local('Source Sans Pro Bold Italic'),local('SourceSansPro-BoldItalic'),url(../fonts/SourceSansPro-BoldIt.otf) format('otf')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:900;src:local('Source Sans Pro Black Italic'),local('SourceSansPro-BlackItalic'),url(../fonts/SourceSansPro-BlackIt.otf) format('otf')}@font-face{font-family:"EB Garamond";src:url(../fonts/EBGaramond12-Regular.eot );src:local('EB Garamond 12 Regular'),local('EBGaramond12-Regular'),url('../fonts/EBGaramond12-Regular.ttf') format('truetype'),url('../fonts/EBGaramond12-Regular.woff') format('woff')}@font-face{font-family:"EB Garamond SC";font-variant:small-caps;src:url(../fonts/EBGaramond12-SC.eot );src:local('EB Garamond 12 SC Regular'),local('EBGaramond12-SC'),url('../fonts/EBGaramond12-SC.ttf') format('truetype'),url('../fonts/EBGaramond12-SC.woff') format('woff')}@font-face{font-family:"EB Garamond";font-style:italic;src:url(../fonts/EBGaramond12-Italic.eot );src:local('EB Garamond 12 Italic'),local('EBGaramond12-Italic'),url('../fonts/EBGaramond12-Italic.ttf') format('truetype'),url('../fonts/EBGaramond12-Italic.woff') format('woff')}@font-face{font-family:"EB Garamond Initials";src:url(../fonts/EBGaramond-Initials.eot );src:local('EB Garamond Initials Regular'),local('EBGaramond-Initials'),url('../fonts/EBGaramond-Initials.ttf') format('truetype'),url('../fonts/EBGaramond-Initials.woff') format('woff')}@font-face{font-family:"EBG08-Re";src:url(fonts/EBGaramond08-Regular.eot );src:url('fonts/EBGaramond08-Regular.ttf') format('truetype'),url('fonts/EBGaramond08-Regular.woff') format('woff')}@font-face{font-family:"EBG08-SC";src:url(fonts/EBGaramond08-SC.eot );src:url('fonts/EBGaramond08-SC.ttf') format('truetype'),url('fonts/EBGaramond08-SC.woff') format('woff')}@font-face{font-family:"EBG08-It";src:url(fonts/EBGaramond08-Italic.eot );src:url('fonts/EBGaramond08-Italic.ttf') format('truetype'),url('fonts/EBGaramond08-Italic.woff') format('woff')}@font-face{font-family:'Glyphicons Halflings';src:url('../fonts/glyphiconshalflings-regular.eot');src:url('../fonts/glyphiconshalflings-regular.eot?#iefix') format('embedded-opentype'),url('../fonts/glyphiconshalflings-regular.woff') format('woff'),url('../fonts/glyphiconshalflings-regular.ttf') format('truetype'),url('../fonts/glyphiconshalflings-regular.svg#glyphicons_halflingsregular') format('svg')}.glyphicon:before{font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased}
+.glyphicon-glass:before{content:"\e001"}
+.glyphicon-music:before{content:"\e002"}
+.glyphicon-search:before{content:"\e003"}
+.glyphicon-envelope:before{content:"\2709"}
+.glyphicon-heart:before{content:"\e005"}
+.glyphicon-star:before{content:"\e006"}
+.glyphicon-star-empty:before{content:"\e007"}
+.glyphicon-user:before{content:"\e008"}
+.glyphicon-film:before{content:"\e009"}
+.glyphicon-th-large:before{content:"\e010"}
+.glyphicon-th:before{content:"\e011"}
+.glyphicon-th-list:before{content:"\e012"}
+.glyphicon-ok:before{content:"\e013"}
+.glyphicon-remove:before{content:"\e014"}
+.glyphicon-zoom-in:before{content:"\e015"}
+.glyphicon-zoom-out:before{content:"\e016"}
+.glyphicon-off:before{content:"\e017"}
+.glyphicon-signal:before{content:"\e018"}
+.glyphicon-cog:before{content:"\e019"}
+.glyphicon-trash:before{content:"\e020"}
+.glyphicon-home:before{content:"\e021"}
+.glyphicon-file:before{content:"\e022"}
+.glyphicon-time:before{content:"\e023"}
+.glyphicon-road:before{content:"\e024"}
+.glyphicon-download-alt:before{content:"\e025"}
+.glyphicon-download:before{content:"\e026"}
+.glyphicon-upload:before{content:"\e027"}
+.glyphicon-inbox:before{content:"\e028"}
+.glyphicon-play-circle:before{content:"\e029"}
+.glyphicon-repeat:before{content:"\e030"}
+.glyphicon-refresh:before{content:"\e031"}
+.glyphicon-list-alt:before{content:"\e032"}
+.glyphicon-lock:before{content:"\e033"}
+.glyphicon-flag:before{content:"\e034"}
+.glyphicon-headphones:before{content:"\e035"}
+.glyphicon-volume-off:before{content:"\e036"}
+.glyphicon-volume-down:before{content:"\e037"}
+.glyphicon-volume-up:before{content:"\e038"}
+.glyphicon-qrcode:before{content:"\e039"}
+.glyphicon-barcode:before{content:"\e040"}
+.glyphicon-tag:before{content:"\e041"}
+.glyphicon-tags:before{content:"\e042"}
+.glyphicon-book:before{content:"\e043"}
+.glyphicon-bookmark:before{content:"\e044"}
+.glyphicon-print:before{content:"\e045"}
+.glyphicon-camera:before{content:"\e046"}
+.glyphicon-font:before{content:"\e047"}
+.glyphicon-bold:before{content:"\e048"}
+.glyphicon-italic:before{content:"\e049"}
+.glyphicon-text-height:before{content:"\e050"}
+.glyphicon-text-width:before{content:"\e051"}
+.glyphicon-align-left:before{content:"\e052"}
+.glyphicon-align-center:before{content:"\e053"}
+.glyphicon-align-right:before{content:"\e054"}
+.glyphicon-align-justify:before{content:"\e055"}
+.glyphicon-list:before{content:"\e056"}
+.glyphicon-indent-left:before{content:"\e057"}
+.glyphicon-indent-right:before{content:"\e058"}
+.glyphicon-facetime-video:before{content:"\e059"}
+.glyphicon-picture:before{content:"\e060"}
+.glyphicon-pencil:before{content:"\270f"}
+.glyphicon-map-marker:before{content:"\e062"}
+.glyphicon-adjust:before{content:"\e063"}
+.glyphicon-tint:before{content:"\e064"}
+.glyphicon-edit:before{content:"\e065"}
+.glyphicon-share:before{content:"\e066"}
+.glyphicon-check:before{content:"\e067"}
+.glyphicon-move:before{content:"\e068"}
+.glyphicon-step-backward:before{content:"\e069"}
+.glyphicon-fast-backward:before{content:"\e070"}
+.glyphicon-backward:before{content:"\e071"}
+.glyphicon-play:before{content:"\e072"}
+.glyphicon-pause:before{content:"\e073"}
+.glyphicon-stop:before{content:"\e074"}
+.glyphicon-forward:before{content:"\e075"}
+.glyphicon-fast-forward:before{content:"\e076"}
+.glyphicon-step-forward:before{content:"\e077"}
+.glyphicon-eject:before{content:"\e078"}
+.glyphicon-chevron-left:before{content:"\e079"}
+.glyphicon-chevron-right:before{content:"\e080"}
+.glyphicon-plus-sign:before{content:"\e081"}
+.glyphicon-minus-sign:before{content:"\e082"}
+.glyphicon-remove-sign:before{content:"\e083"}
+.glyphicon-ok-sign:before{content:"\e084"}
+.glyphicon-question-sign:before{content:"\e085"}
+.glyphicon-info-sign:before{content:"\e086"}
+.glyphicon-screenshot:before{content:"\e087"}
+.glyphicon-remove-circle:before{content:"\e088"}
+.glyphicon-ok-circle:before{content:"\e089"}
+.glyphicon-ban-circle:before{content:"\e090"}
+.glyphicon-arrow-left:before{content:"\e091"}
+.glyphicon-arrow-right:before{content:"\e092"}
+.glyphicon-arrow-up:before{content:"\e093"}
+.glyphicon-arrow-down:before{content:"\e094"}
+.glyphicon-share-alt:before{content:"\e095"}
+.glyphicon-resize-full:before{content:"\e096"}
+.glyphicon-resize-small:before{content:"\e097"}
+.glyphicon-plus:before{content:"\002b"}
+.glyphicon-minus:before{content:"\2212"}
+.glyphicon-asterisk:before{content:"\002a"}
+.glyphicon-exclamation-sign:before{content:"\e101"}
+.glyphicon-gift:before{content:"\e102"}
+.glyphicon-leaf:before{content:"\e103"}
+.glyphicon-fire:before{content:"\e104"}
+.glyphicon-eye-open:before{content:"\e105"}
+.glyphicon-eye-close:before{content:"\e106"}
+.glyphicon-warning-sign:before{content:"\e107"}
+.glyphicon-plane:before{content:"\e108"}
+.glyphicon-calendar:before{content:"\e109"}
+.glyphicon-random:before{content:"\e110"}
+.glyphicon-comment:before{content:"\e111"}
+.glyphicon-magnet:before{content:"\e112"}
+.glyphicon-chevron-up:before{content:"\e113"}
+.glyphicon-chevron-down:before{content:"\e114"}
+.glyphicon-retweet:before{content:"\e115"}
+.glyphicon-shopping-cart:before{content:"\e116"}
+.glyphicon-folder-close:before{content:"\e117"}
+.glyphicon-folder-open:before{content:"\e118"}
+.glyphicon-resize-vertical:before{content:"\e119"}
+.glyphicon-resize-horizontal:before{content:"\e120"}
+.glyphicon-hdd:before{content:"\e121"}
+.glyphicon-bullhorn:before{content:"\e122"}
+.glyphicon-bell:before{content:"\e123"}
+.glyphicon-certificate:before{content:"\e124"}
+.glyphicon-thumbs-up:before{content:"\e125"}
+.glyphicon-thumbs-down:before{content:"\e126"}
+.glyphicon-hand-right:before{content:"\e127"}
+.glyphicon-hand-left:before{content:"\e128"}
+.glyphicon-hand-up:before{content:"\e129"}
+.glyphicon-hand-down:before{content:"\e130"}
+.glyphicon-circle-arrow-right:before{content:"\e131"}
+.glyphicon-circle-arrow-left:before{content:"\e132"}
+.glyphicon-circle-arrow-up:before{content:"\e133"}
+.glyphicon-circle-arrow-down:before{content:"\e134"}
+.glyphicon-globe:before{content:"\e135"}
+.glyphicon-wrench:before{content:"\e136"}
+.glyphicon-tasks:before{content:"\e137"}
+.glyphicon-filter:before{content:"\e138"}
+.glyphicon-briefcase:before{content:"\e139"}
+.glyphicon-fullscreen:before{content:"\e140"}
+.glyphicon-dashboard:before{content:"\e141"}
+.glyphicon-paperclip:before{content:"\e142"}
+.glyphicon-heart-empty:before{content:"\e143"}
+.glyphicon-link:before{content:"\e144"}
+.glyphicon-phone:before{content:"\e145"}
+.glyphicon-pushpin:before{content:"\e146"}
+.glyphicon-euro:before{content:"\20ac"}
+.glyphicon-usd:before{content:"\e148"}
+.glyphicon-gbp:before{content:"\e149"}
+.glyphicon-sort:before{content:"\e150"}
+.glyphicon-sort-by-alphabet:before{content:"\e151"}
+.glyphicon-sort-by-alphabet-alt:before{content:"\e152"}
+.glyphicon-sort-by-order:before{content:"\e153"}
+.glyphicon-sort-by-order-alt:before{content:"\e154"}
+.glyphicon-sort-by-attributes:before{content:"\e155"}
+.glyphicon-sort-by-attributes-alt:before{content:"\e156"}
+.glyphicon-unchecked:before{content:"\e157"}
+.glyphicon-expand:before{content:"\e158"}
+.glyphicon-collapse:before{content:"\e159"}
+.glyphicon-collapse-top:before{content:"\e160"}
