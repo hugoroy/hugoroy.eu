@@ -1,7 +1,7 @@
 body,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Roboto",Roboto,"Open Sans","OpenSans","DejaVu Sans",sans-serif;text-rendering:optimizeLegibility;-moz-font-feature-settings:"liga","calt";-webkit-font-feature-settings:"liga","calt";-ms-font-feature-settings:"liga";-o-font-feature-settings:"liga";font-feature-settings:"liga"}
 @media (min-width:1500px){body{max-width:1500px;margin:0 auto}}h1,h2,h3,.h1,.h2,.h3{font-weight:500;letter-spacing:-0.02em;word-spacing:.1em}
-body.roman article{font-size:1.2em;font-family:"EB Garamond","Garamond Premier Pro","Garamond",Georgia,serif}body.roman article p,body.roman article h1,body.roman article h2,body.roman article h3,body.roman article .h1,body.roman article .h2,body.roman article .h3{font-family:"EB Garamond","Garamond Premier Pro","Garamond",Georgia,serif;max-width:666px}
-body.roman article p{font-size:1.3em}
+body.roman article{font-size:1.4em;font-family:"EB Garamond","Garamond Premier Pro","Garamond",Georgia,serif}body.roman article p,body.roman article h1,body.roman article h2,body.roman article h3,body.roman article .h1,body.roman article .h2,body.roman article .h3{font-family:"EB Garamond","Garamond Premier Pro","Garamond",Georgia,serif;max-width:666px}
+body.roman article p{font-size:1.1em}
 pre,code{font-family:"Inconsolata",Monaco,Menlo,Consolas,"Courier New",monospace}
 img{max-width:100%}
 .collapser{cursor:pointer;opacity:.5}
