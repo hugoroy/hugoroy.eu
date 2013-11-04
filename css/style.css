@@ -1,5 +1,8 @@
+@import "font-awesome.css";
 body,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Roboto",Roboto,"Open Sans","OpenSans","DejaVu Sans",sans-serif;text-rendering:optimizeLegibility;-moz-font-feature-settings:"liga","calt";-webkit-font-feature-settings:"liga","calt";-ms-font-feature-settings:"liga";-o-font-feature-settings:"liga";font-feature-settings:"liga"}
-@media (min-width:1500px){body{max-width:1500px;margin:0 auto}}h1,h2,h3,.h1,.h2,.h3{font-weight:500;letter-spacing:-0.02em;word-spacing:.1em}
+@media (min-width:1500px){body{max-width:1500px;margin:0 auto}}a:hover,a:active,a:focus{text-decoration:none;color:#d9261c;transition-property:color;transition-duration:.5s;transition-timing-function:ease-out}
+a:focus{outline:1px dashed rgba(51,51,51,0.5)}
+h1,h2,h3,.h1,.h2,.h3{font-weight:500;letter-spacing:-0.02em;word-spacing:.1em}
 body.roman article{font-size:1.4em;font-family:"EB Garamond","Garamond Premier Pro","Garamond",Georgia,serif}body.roman article p,body.roman article h1,body.roman article h2,body.roman article h3,body.roman article .h1,body.roman article .h2,body.roman article .h3{font-family:"EB Garamond","Garamond Premier Pro","Garamond",Georgia,serif;max-width:666px}
 body.roman article p{font-size:1.1em}
 pre,code{font-family:"Inconsolata",Monaco,Menlo,Consolas,"Courier New",monospace}
@@ -10,7 +13,8 @@ img{max-width:100%}
 #top .link-home span{position:absolute;display:block;width:48px;height:32px;text-align:center;padding-top:16px;font-size:32px;visibility:hidden;color:transparent}
 #top .link-home span,#ma-tete{border-width:1px;border-style:solid;border-radius:50%}
 #ma-tete{width:50px;height:50px;box-shadow:0 0 .5em rgba(0,0,0,0.3)}
-#lang-select{font-size:.9em;padding:.5em}
+#lang-select{color:#666;font-size:.9em;padding:.5em 22px;background:transparent url('../site/img/globe.png') no-repeat left;word-spacing:.4em}
+#lang-select .current{color:#333}
 body.lang-en span.hide.lang-en{display:inline !important}
 body.lang-fr span.hide.lang-fr{display:inline !important}
 #top-link{clear:both}
@@ -37,20 +41,21 @@ article h3,article .h3{font-size:1.8em}
 article figure{margin:2em 0}
 article figcaption{padding:7px;font-weight:300}
 article .footnotes ol li p a:last-child{margin-left:.5em}
+article pre.terminal,article code.terminal{background-color:#372037;border-color:#333;color:#fff}
+article pre.terminal{border-radius:0;border-width:0 0 0 6px}
 article:last-child{margin-bottom:0}
 #wordpress article header,#wordpress article footer{max-width:666px;padding:0 2em}
 #wordpress article section{margin-bottom:0;padding:0 2em}
 #wordpress article footer{border-top:1px solid #eee;margin:3em 2em;padding-top:2em;text-align:center}
 #wordpress .page-title{margin-left:220px}
 @media (min-width:700px){article aside{float:right}}footer{font-size:.9em}
-.feed-link{font-variant:small-caps}
-.feed-link:before{content:"["}
-.feed-link:after{content:"]"}
+.feed-link,.feedbutton{font-variant:small-caps;text-transform:lowercase}
 .home article section{margin-top:2em;margin-bottom:10em;padding:4em 2em}
 .home article section:first-child{margin-top:0;padding-top:1em}
 #index-html .link-home{display:none}
 #index-html #portrait img{width:148px;margin-top:-50px}
-@media (min-width:700px){#index-html #portrait{} #index-html #portrait img{position:relative;width:100%}}
+@media (min-width:700px){#index-html #portrait{} #index-html #portrait img{position:relative;width:100%}}@media (max-width:700px){#rel-mes.pull-right{float:none !important}}#rel-mes ul{list-style-type:none;font-size:1.2em}
+#rel-mes [class^="icon-"],#rel-mes [class*=" icon-"]{margin-right:.3em}
 ul.index{list-style:none;margin-left:0;padding-left:0}
 ul.index time{margin-left:-2em;margin-right:2em;padding-left:.5em;text-align:right;color:#666;display:inline-block;width:7.5em}
 @media (max-width:960px){ul.index time{display:block;text-align:left;margin-top:.6em}}@media (min-width:960px){ul.index li p{margin-left:120px;padding-left:.25em}}ul.index .authors .avatar{height:1.1em;margin-left:.5em;box-shadow:0 0 0 transparent}

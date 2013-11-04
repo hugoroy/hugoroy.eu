@@ -15,6 +15,17 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     }
 }
 
+a:hover, a:active, a:focus {
+    text-decoration: none;
+    color: #d9261c;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+a:focus {
+    outline: 1px dashed rgba(51,51,51,0.5);
+}
 
 h1, h2, h3, .h1, .h2, .h3 {
     /*font-family: "Source Sans Pro";*/
@@ -87,8 +98,15 @@ img {
 }
 
 #lang-select {
+    color: #666;
     font-size: 0.9em;
-    padding: 0.5em;
+    padding: 0.5em 22px;
+    background: transparent url('../site/img/globe.png') no-repeat left;
+    word-spacing: 0.4em;
+}
+
+#lang-select .current {
+    color: rgb(51, 51, 51);
 }
 
 body.lang-en span.hide.lang-en { display: inline !important; }
@@ -255,6 +273,15 @@ article {
             margin-left:0.5em;
         }
     }
+    pre.terminal, code.terminal {
+        background-color: rgba(55, 32, 55, 1);
+        border-color: #333;
+        color: #FFF;
+    }
+    pre.terminal {
+        border-radius: 0;
+        border-width: 0 0 0 6px;
+    }
 }
 article:last-child {
     margin-bottom: 0;
@@ -293,14 +320,9 @@ footer {
     font-size: 0.9em;
 }
 
-.feed-link {
+.feed-link, .feedbutton {
     font-variant: small-caps;
-}
-.feed-link:before {
-    content: "[";
-}
-.feed-link:after {
-    content: "]";
+    text-transform: lowercase;
 }
 
 /* index.html */
@@ -331,6 +353,27 @@ footer {
     #index-html #portrait img {
         position: relative;
         width: 100%;
+    }
+}
+
+/* rel mes */
+
+@media(max-width: 700px) {
+    #rel-mes.pull-right {
+        float: none !important;
+    }
+}
+
+#rel-mes {
+
+
+    ul {
+        list-style-type: none;
+        font-size: 1.2em;
+    }
+    
+    [class^="icon-"], [class*=" icon-"] {
+        margin-right: 0.3em;
     }
 }
 
@@ -430,5 +473,6 @@ ul.index .link-out {
 .zzz,.zzz a{float:right;font-size:.001px;color:transparent;display:inline-block;width:0px;text-decoration:none;}
 
 @import "fonts.less";
+@import "font-awesome.css";
 @import "bootstrap-glyphicons.less";
 
