@@ -361,11 +361,25 @@ footer {
 @media(max-width: 700px) {
     #rel-mes.pull-right {
         float: none !important;
+
+        ul {
+            padding-left: 0;
+
+            li {
+                margin-left: 0;
+                display: inline-block;
+            }
+        }
+
+        [class^="icon-"], [class*=" icon-"] {
+            margin-left: 0.3em;
+        }
     }
 }
 
 #rel-mes {
-
+    
+    margin-bottom: 2em;
 
     ul {
         list-style-type: none;

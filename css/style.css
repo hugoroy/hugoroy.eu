@@ -54,7 +54,7 @@ article:last-child{margin-bottom:0}
 .home article section:first-child{margin-top:0;padding-top:1em}
 #index-html .link-home{display:none}
 #index-html #portrait img{width:148px;margin-top:-50px}
-@media (min-width:700px){#index-html #portrait{} #index-html #portrait img{position:relative;width:100%}}@media (max-width:700px){#rel-mes.pull-right{float:none !important}}#rel-mes ul{list-style-type:none;font-size:1.2em}
+@media (min-width:700px){#index-html #portrait{} #index-html #portrait img{position:relative;width:100%}}@media (max-width:700px){#rel-mes.pull-right{float:none !important}#rel-mes.pull-right ul{padding-left:0}#rel-mes.pull-right ul li{margin-left:0;display:inline-block} #rel-mes.pull-right [class^="icon-"],#rel-mes.pull-right [class*=" icon-"]{margin-left:.3em}}#rel-mes{margin-bottom:2em}#rel-mes ul{list-style-type:none;font-size:1.2em}
 #rel-mes [class^="icon-"],#rel-mes [class*=" icon-"]{margin-right:.3em}
 ul.index{list-style:none;margin-left:0;padding-left:0}
 ul.index time{margin-left:-2em;margin-right:2em;padding-left:.5em;text-align:right;color:#666;display:inline-block;width:7.5em}
