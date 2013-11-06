@@ -59,7 +59,7 @@ article:last-child{margin-bottom:0}
 #rel-mes [class^="icon-"],#rel-mes [class*=" icon-"]{margin-right:.3em}
 ul.index{list-style:none;margin-left:0;padding-left:0}
 ul.index time{margin-left:-2em;margin-right:2em;padding-left:.5em;text-align:right;color:#666;display:inline-block;width:7.5em}
-@media (max-width:960px){ul.index time{display:block;text-align:left;margin-top:.6em}}@media (min-width:960px){ul.index li p{margin-left:120px;padding-left:.25em}}ul.index .authors .avatar{height:1.1em;margin-left:.5em;box-shadow:0 0 0 transparent}
+@media (max-width:960px){ul.index time{display:block;text-align:left;margin-top:.6em}}@media (min-width:960px){ul.index li p{margin-left:120px;padding-left:1.5em}}ul.index .authors .avatar{height:1.1em;margin-left:.5em;box-shadow:0 0 0 transparent}
 ul.index .link-out{color:#666;font-size:.8em;margin:0 .4em}
 .no-js #talks ul.index li p.collapse{display:block;height:auto}
 .subscribers .btn{display:block;margin-bottom:.5em}
