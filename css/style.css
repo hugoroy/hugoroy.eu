@@ -30,7 +30,7 @@ aside{font-size:.9em}
 .js #menu .nav .nav{display:none}
 #menu .nav .nav li{background-color:rgba(100,100,100,0.05)}
 #menu .nav .nav li a{padding:5px 15px;font-size:.9em}
-@media (min-width:700px){#menu{position:fixed;top:160px;float:none;clear:both} #menu .nav li,.home #menu .nav li{text-align:right;display:block;width:100%} #menu .nav>.active>a{border-right:3px solid #d9261c} #menu .nav .nav>.active>a{border-right:3px solid rgba(217,38,28,0.5)} #menu .nav>.active>.nav{display:block}}article{margin-bottom:10em}article section{margin-top:2em;margin-bottom:4em;padding:2em}
+@media (min-width:700px){#menu{position:fixed;top:160px;float:none;clear:both} #menu .nav li,.home #menu .nav li{text-align:right;display:block;width:100%} #menu .nav>.active>a{border-right:3px solid #d9261c} #menu .nav .nav>.active>a{border-right:3px solid rgba(217,38,28,0.5)} #menu .nav>.active>.nav{display:block}}@media (min-width:1500px){#menu{top:220px}}article{margin-bottom:10em}article section{margin-top:2em;margin-bottom:4em;padding:2em}
 article section:first-child{margin-top:0;padding-top:1em}
 article p,article h1,article h2,article h3,article h4,article h5,article h6{max-width:666px}
 article p{margin:0 0 1.1em;font-size:1.11em;line-height:140%;-moz-hyphens:auto;-webkit-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;hyphens:auto}
