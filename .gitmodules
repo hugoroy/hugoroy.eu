@@ -1,0 +1,6 @@
+[submodule "Font-Awesome"]
+	path = Font-Awesome
+	url = git@github.com:hugoroy/Font-Awesome.git
+[submodule "bootstrap"]
+	path = bootstrap
+	url = git@github.com:hugoroy/bootstrap.git
